@@ -105,7 +105,7 @@ function gMap () {
 
         	// if zoom not defined the zoom value will be 15;
         	if (mapZoom) {
-        		var mapZoom = 8;
+        		var mapZoom = 15;
         	};
         	// init map
         	var map;
