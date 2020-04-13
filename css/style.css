@@ -376,7 +376,7 @@ figure{
   animation: pulse 1s infinite;
 }
 .scroll-top:hover{
-  background: #222222;
+  background: #EE8700;
 }
 .scroll-top:after {
   position: absolute;
