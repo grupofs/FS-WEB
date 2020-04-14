@@ -1307,7 +1307,7 @@ figure{
 .testimonial-section:before{
   position: absolute;
   content: '';
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   left: 0px;
