@@ -950,16 +950,45 @@ figure{
   cursor: pointer;
   transition: all 500ms ease;
 }
-.destin-details .tab-title li.active{
+#tabClientes .destin-details .tab-title li{
+  position: relative;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 22px 12px 22px;
+  text-align: center;
+  background: #71b100;
+  text-transform: uppercase;
+  margin-right: 32px;
+  cursor: pointer;
+  transition: all 500ms ease;
+  border-radius: 22px 22px 0px 0px;
+-moz-border-radius: 22px 22px 0px 0px;
+-webkit-border-radius: 22px 22px 0px 0px;
+border: 0px solid #71b100;
+}
+.destin-details .tab-title li.active{   
   background: #044372;
   color: #ffffff;
+}
+
+#tabClientes .destin-details .tab-title li.active{
+  border-radius: 22px 22px 0px 0px;
+  -moz-border-radius: 22px 22px 0px 0px;
+  -webkit-border-radius: 22px 22px 0px 0px;
+  border: 0px solid #71b100;
+  color: #044372;
+  background-color: #ffffff;
 }
 .destin-details .tab-title li:last-child{
   margin-right: 0px;
 }
 .destin-details .tab-content{
   position: relative;
-  background: #f7f7f7;
+  background: transparent;
 }
 .destin-details .tab-content .img-box img{
   width: 100%;
@@ -1344,7 +1373,7 @@ figure{
 .testimonial-section h2.sec-title,
 .testimonial-section .title-text{
   position: relative;
-  color: #ffffff;
+  color: #EE8700;
 }
 .testimonial-section .testimonial-content .author-thumb{
   position: relative;
