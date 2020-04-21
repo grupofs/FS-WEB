@@ -934,6 +934,11 @@ figure{
 .destin-details .tab-title{
   margin-bottom: 60px;
 }
+
+#tabClientes .destin-details .tab-title{
+  margin-bottom: 10px;
+}
+
 .destin-details .tab-title li{
   position: relative;
   display: inline-block;

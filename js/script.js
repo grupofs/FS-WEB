@@ -289,7 +289,8 @@
 	        var tabClicker = $('.custom-tab-title ul li');
 	        
 	        tabWrap.children('div').hide();
-	        tabWrap.children('div').eq(0).show();
+			tabWrap.children('div').eq(0).show();
+			
 	        tabClicker.on('click', function() {
 	            var tabName = $(this).data('tab-name');
 	            tabClicker.removeClass('active');
