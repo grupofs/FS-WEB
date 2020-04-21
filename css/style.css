@@ -369,14 +369,14 @@ figure{
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  background: #044372;
+  background: #71b100;
   transition: all 500ms ease;
   -webkit-animation: pulse 1s infinite;
   -o-animation: pulse 1s infinite;
   animation: pulse 1s infinite;
 }
 .scroll-top:hover{
-  background: #EE8700;
+  background: #044372;
 }
 .scroll-top:after {
   position: absolute;

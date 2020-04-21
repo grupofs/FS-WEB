@@ -430,7 +430,9 @@
 	}
 	
 	
-
+	function clickCliente(){
+		$("#btnClientes").click();
+	}
 
 
 
@@ -443,6 +445,7 @@
 			// add your functions
 			customTabProductPageTab ();
 			customTabProductPageTab1 ();
+			clickCliente();
 		})(jQuery);
 	});
 
