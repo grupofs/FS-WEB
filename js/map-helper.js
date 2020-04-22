@@ -15,97 +15,24 @@ function gMap () {
         	var markers = Self.data('markers');
 
         	// defined default style
-        	var styles = [
-			    {
-			        "featureType": "administrative",
-			        "elementType": "labels.text.fill",
-			        "stylers": [
-			            {
-			                "color": "#000000"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "landscape",
-			        "elementType": "all",
-			        "stylers": [
-			            {
-			                "color": "#f3f1ed"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "poi",
-			        "elementType": "all",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "road",
-			        "elementType": "all",
-			        "stylers": [
-			            {
-			                "saturation": -100
-			            },
-                        {
-			                "color": "#ffffff"
-			            },
-			            {
-			                "lightness": 45
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "road.highway",
-			        "elementType": "all",
-			        "stylers": [
-                        {
-			                "color": "#e1e1e1"
-			            },
-			            {
-			                "visibility": "simplified"
-			            }
-			            
-			        ]
-			    },
-			    {
-			        "featureType": "road.arterial",
-			        "elementType": "labels.icon",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "transit",
-			        "elementType": "all",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "water",
-			        "elementType": "all",
-			        "stylers": [
-			            {
-			                "color": "#71b100"
-			            },
-			            {
-			                "visibility": "on"
-			            }
-			        ]
-			    }
-			];
+        	var styles = {
+				default: null,
+				hide: [
+				  {
+					featureType: 'poi.business',
+					stylers: [{visibility: 'off'}]
+				  },
+				  {
+					featureType: 'transit',
+					elementType: 'labels.icon',
+					stylers: [{visibility: 'off'}]
+				  }
+				]
+			};
 
         	// if zoom not defined the zoom value will be 15;
         	if (mapZoom) {
-        		var mapZoom = 15;
+        		var mapZoom = 17;
         	};
         	// init map
         	var map;
