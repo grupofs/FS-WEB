@@ -434,6 +434,17 @@
 		$("#btnClientes").click();
 	}
 
+	$("#btnMisionBarra").click(function(){
+		$("#btnMision").click();
+	})
+
+	$("#btnSomosBarra").click(function(){
+		$("#btnSomos").click();
+	})
+
+	$("#btnVisionBarra").click(function(){
+		$("#btnVision").click();
+	})
 
 
 	/*	=========================================================================

@@ -51,16 +51,16 @@
                                         <li class="current"><a href="#">INICIO</a></li>
                                         <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                             <ul>
-                                                <li><a href="#">¿Quienes Somos?</a></li>
-                                                <li><a href="#">Mision</a></li>
-                                                <li><a href="#">Vision</a></li>
+                                                <li id="btnSomosBarra"><a href="#NosotrosFS">¿Quienes Somos?</a></li>
+                                                <li id="btnMisionBarra"><a href="#NosotrosFS">Mision</a></li>
+                                                <li id="btnVisionBarra"><a href="#NosotrosFS">Vision</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="#ServiciosFS">SERVICIOS</a>
+                                        <li class="dropdown"><a href="#">SERVICIOS</a>
                                             <ul>
-                                                <li><a href="#">Área Técnica</a></li>
-                                                <li><a href="#">Asuntos Regulatorios</a></li>
-                                                <li><a href="#">Procesos Térmicos</a></li>
+                                                <li><a href="#AreaTecnica">Área Técnica</a></li>
+                                                <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
+                                                <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#tabClientes">CLIENTES</a></li>  
@@ -102,20 +102,20 @@
                                             <li class="current"><a href="#">INICIO</a></li>
                                             <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                                 <ul>
-                                                    <li><a href="#">¿Quienes Somos?</a></li>
-                                                    <li><a href="#">Mision</a></li>
-                                                    <li><a href="#">Vision</a></li>
+                                                    <li id="btnSomosBarra"><a href="#NosotrosFS">¿Quienes Somos?</a></li>
+                                                    <li id="btnMisionBarra"><a href="#NosotrosFS">Mision</a></li>
+                                                    <li id="btnVisionBarra"><a href="#NosotrosFS">Vision</a></li>
                                                 </ul>
                                             </li>
                                             
-                                            <li class="dropdown"><a href="#ServiciosFS">SERVICIOS</a>
+                                            <li class="dropdown"><a href="#">SERVICIOS</a>
                                                 <ul>
-                                                    <li><a href="#">Área Técnica</a></li>
-                                                    <li><a href="#">Asuntos Regulatorios</a></li>
-                                                    <li><a href="#">Procesos Térmicos</a></li>
+                                                    <li><a href="#AreaTecnica">Área Técnica</a></li>
+                                                    <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
+                                                    <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                                 </ul>
                                             </li>
-                                            
+
                                             <li><a href="#tabClientes">CLIENTES</a></li>  
                                             <li><a href="#SociosFS">socios</a></li>   
                                             <li><a href="#EventosFS">eventos</a></li>   
@@ -210,9 +210,9 @@
             <!-- <div class="title-text centred">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,<br />sed quia consequuntur magni dolores eos qui ratione</div> -->
             <div class="custom-tab-title centred">
                 <ul class="tab-title clearfix">
-                    <li data-tab-name="details" class="active"><i class="fa fa-building"></i> ¿Quienes Somos?</li>
-                    <li data-tab-name="review"><i class="fa fa-users"></i> Nuestra Misión</li>
-                    <li data-tab-name="review1"><i class="fa fa-eye"></i> Nuestra Visión</li>
+                    <li data-tab-name="details" id="btnSomos" class="active"><i class="fa fa-building"></i> ¿Quienes Somos?</li>
+                    <li data-tab-name="review" id="btnMision"><i class="fa fa-users"></i> Nuestra Misión</li>
+                    <li data-tab-name="review1" id="btnVision"><i class="fa fa-eye"></i> Nuestra Visión</li>
                 </ul>
             </div>
             
@@ -404,7 +404,7 @@
     <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
 
 
-    <section class="testimonial-section-service gallery-section sec-pad" style="background-image: url(images/FS/grupofs-6tecnica.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad" id="AreaTecnica" style="background-image: url(images/FS/grupofs-6tecnica.jpg);">
        <div class="container"> 
         <div class="sortable-masonry mixed-gallery-section">
             <ul class="filter-tabs filter-btns post-filter centred">
@@ -703,7 +703,7 @@
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
     
 
-    <section class="testimonial-section-service gallery-section sec-pad " style="background-image: url(images/FS/grupofs-7regulatorios.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad " id="AsuntosRegulatorios" style="background-image: url(images/FS/grupofs-7regulatorios.jpg);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
@@ -1005,7 +1005,7 @@
     
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
 
-    <section class="testimonial-section-service gallery-section sec-pad " style="background-image: url(images/FS/grupofs-8termicos.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad " id="ProcesosTermicos" style="background-image: url(images/FS/grupofs-8termicos.jpg);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
