@@ -522,6 +522,24 @@ figure{
   -o-transition:all 500ms ease;
 }
 
+.main-menu .navigation > li > a:hover{
+  position:relative;
+  display:block;
+  font-size:16px;
+  font-family: 'Montserrat', sans-serif;
+  color:#ffffff;
+  line-height:30px;
+  font-weight:600;
+  opacity:1;
+  text-transform:uppercase;
+  padding: 28px 0px 27px 0px;
+  transition:all 500ms ease;
+  -moz-transition:all 500ms ease;
+  -webkit-transition:all 500ms ease;
+  -ms-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+}
+
 .main-menu .navigation > li:hover > a:after{
   opacity:1;
 }
@@ -541,7 +559,7 @@ figure{
   position:relative;
   width:100%;
   padding: 7px 30px;
-  border-bottom: 1px solid #044372;
+  border-bottom: 1px solid #71b100;
   transition: all 500ms ease;
 }
 
@@ -570,7 +588,7 @@ figure{
   color: #fff;
 }
 .main-menu .navigation > li > ul > li:hover{
-  background: #044372;
+  background: #71b100;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -583,7 +601,7 @@ figure{
   top: 0px;
   font-size:18px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
-  color:#ffffff;
+  color:#71b100;
   width: 50px;
   height: 47px;
   line-height: 47px;
