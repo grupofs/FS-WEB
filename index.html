@@ -11,12 +11,15 @@
 <!-- Stylesheets -->
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/dataTables.css">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
 </head>
 
 <!-- page wrapper -->
-<body class="boxed_wrapper">
+<body class="boxed_wrapper" íd="CuerpoWeb">
 
 
     <!-- .preloader -->
@@ -47,7 +50,7 @@
                                     </button>
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
-                                    <ul class="navigation clearfix">
+                                    <ul class="navigation clearfix" id="menu_nav">
                                         <li class="current"><a href="#">INICIO</a></li>
                                         <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                             <ul>
@@ -98,7 +101,7 @@
                                         </button>
                                     </div>
                                     <div class="navbar-collapse collapse clearfix">
-                                        <ul class="navigation clearfix">
+                                        <ul class="navigation clearfix" id="menu_nav">
                                             <li class="current"><a href="#">INICIO</a></li>
                                             <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                                 <ul>
@@ -536,14 +539,14 @@
                                         </div>
 
                                         <div class="acc-content collapsed">
-                                            <p><b style="color:#71b100">Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
+                                            <p><b style="color:#8BD804">Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                             -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
-                                            <p><b style="color:#71b100">Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
+                                            <p><b style="color:#8BD804">Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
 
-                                            <p><b style="color:#71b100">Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
+                                            <p><b style="color:#8BD804">Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
 
-                                            <p><b style="color:#71b100">Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
+                                            <p><b style="color:#8BD804">Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
                                         </div>
 
                                     </div>
@@ -838,14 +841,14 @@
                                          </div>
  
                                          <div class="acc-content collapsed">
-                                             <p><b style="color:#71b100">Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
+                                             <p><b style="color:#8BD804">Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                              -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
  
-                                             <p><b style="color:#71b100">Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
+                                             <p><b style="color:#8BD804">Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
  
-                                             <p><b style="color:#71b100">Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
+                                             <p><b style="color:#8BD804">Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
  
-                                             <p><b style="color:#71b100">Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
+                                             <p><b style="color:#8BD804">Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
                                          </div>
  
                                      </div>
@@ -1409,7 +1412,7 @@
                     <!-- Espaciado -->
                 </div>
                 
-                <div class="col-lg-7 float-right">
+                <div class="col-lg-7 float-right animated fadeInLeftBig">
                    
                     <div class="row ">
                         <figure class="author-thumb" style="padding-right: 5%;"><img src="images/FS/FSC_Cuadrado.png" alt=""></figure>
@@ -1436,7 +1439,7 @@
 
 
       <!-- Clientes -->
-      <section class="testimonial-section sec-pad centred" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
+    <section class="testimonial-section sec-pad centred" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
        
         <div class="destin-details"  id="tabClientes">
             <div class="">
@@ -1628,8 +1631,101 @@
     </section>
     <!-- Clientes end -->
 
+
+    <section class="sec-pad-espacio centred" style="background-color: white;" id=""></section> <!-- Espaciado -->
     
-    <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
+
+    <!-- Eventos -->
+    <section class="testimonial-section sec-pad centred" id="EventosFS" style="background-image: url(images/FS/grupofs-11eventos.jpg">
+        <div class="container">
+            <h1 class="sec-title" style="color:#EE8700 text-align: center">Eventos</h1>
+                     <br>
+            <div class="title-text"></div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <!-- Espaciado -->
+                </div>
+
+                <div class="col-lg-8">
+                    <table class="tablaEventos">
+
+                        <tr>
+                      
+                          <th style="width: 70%;" id="thTable">Descripción del Evento</th>
+                      
+                          <th style="width: 15%;" id="thTable">Detalles</th>
+                      
+                          <th style="width: 15%;" id="thTable">Registrarse</th>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                          <td><p style="color:#044372; font-weight: bold;">Seminario Taller - Como exportar alimentos a EE.UU</p> <p>04 de OCTUBRE - 2019</p></td>
+                      
+                          <td><i class="fa fa-plus"></i></td>
+                      
+                          <td><i class="fa fa-bullseye"></i></td>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                          <td><p style="color:#044372; font-weight: bold;">Fraude Alimentario</p> <p>11 de OCTUBRE - 2019</p></td>
+                      
+                          <td><i class="fa fa-plus"></i></td>
+                      
+                          <td><i class="fa fa-bullseye"></i></td>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                            <td><p style="color:#044372; font-weight: bold;">Programa de Defensa Alimentaria (Food Defense)</p> <p>22 de AGOSTO - 2019</p></td>
+                        
+                            <td><i class="fa fa-plus"></i></td>
+                        
+                            <td><i class="fa fa-bullseye"></i></td>
+                      
+                        </tr>
+
+                        <tr>
+                      
+                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p> <p>&nbsp;</p></td>
+                        
+                            <td><i class="fa fa-plus"></i></td>
+                        
+                            <td><i class="fa fa-bullseye"></i></td>
+                      
+                        </tr>
+
+                        <tr>
+                      
+                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p> <p>&nbsp;</p></td>
+                        
+                            <td><i class="fa fa-plus"></i></td>
+                        
+                            <td><i class="fa fa-bullseye"></i></td>
+                      
+                        </tr>
+                      
+                      </table>
+                </div>
+                
+                <div class="col-lg-2">
+                    <!-- Espaciado -->
+                </div>
+               
+
+            </div>
+        </div>
+    </section>
+    <!-- Eventos end -->
+    
+
+    <section class="sec-pad-espacio centred" style="background-color: white;" id=""></section> <!-- Espaciado -->
+
+
 
     <!-- CONTACTO -->
    
@@ -1712,7 +1808,7 @@
 
                 <div class="col-md-4">
                     <p style="color:white; font-size: 14px;" ><i class="fa fa-envelope" style="width: 20px; height: 20px;"></i> 
-                        consultas@grupofs.com
+                       <a href="mailto:consultas@grupofs.com" style="color:#ffffff;"> consultas@grupofs.com</a>
                    </p>
                 </div>
                
@@ -1725,10 +1821,10 @@
     <!-- footer-bottom -->
     <div class="footer-bottom centred">
         <div class="container">
-            <div class="copyright"><a target="_blank" href="#">
+            <div class="copyright">
 
-                Copyright 2020 Grupo FS | Todos los Derechos Reservados | Área de Sistemas
-                </a></div>
+                Copyright <strong id="Año"></strong> Grupo FS | Todos los Derechos Reservados | Área de Sistemas
+            </div>
         </div>
     </div>
     <!-- footer-bottom end -->
@@ -1751,8 +1847,16 @@
 <script src="js/isotope.js"></script>
 <script src="js/gmaps.js"></script>
 <script src="js/map-helper.js"></script>
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
 <!-- main-js -->
 <script src="js/script.js"></script>
+
+<script src="js/evento.js"></script>
+<!-- Waypoints -->
+<!-- <script src="js/waypoints/lib/noframework.waypoints.js"></script>
+<script src="js/scroll.js"></script> -->
 
 </body><!-- End of .page_wrapper -->
 

@@ -10,7 +10,7 @@
   }
   .main-header{
     margin-bottom: 0px;
-    background: #71b100;
+    background: #8BD804;
   }
   .main-header .header-content{
     margin-top: 0px;
@@ -299,7 +299,7 @@
     background:  transparent;
   }  
   .main-menu .navbar-header .navbar-toggle .icon-bar{
-    background: #71b100;
+    background: #8BD804;
     height: 2px;
     width: 29px;
     display:  block;

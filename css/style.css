@@ -155,7 +155,7 @@ a{
 a:hover{
  
   outline:none;
-  background-color: #71b100;
+  background-color: #8BD804;
   transition: all 500ms ease;
   color : #ffffff;
 }
@@ -369,7 +369,7 @@ figure{
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  background: #71b100;
+  background: #8BD804;
   transition: all 500ms ease;
   -webkit-animation: pulse 1s infinite;
   -o-animation: pulse 1s infinite;
@@ -552,14 +552,14 @@ figure{
   z-index:100;
   display:none;
   background:#ffffff;
-  border-bottom: 3px solid #71b100;
+  border-bottom: 3px solid #8BD804;
 }
 
 .main-menu .navigation > li > ul > li{
   position:relative;
   width:100%;
   padding: 7px 30px;
-  border-bottom: 1px solid #71b100;
+  border-bottom: 1px solid #8BD804;
   transition: all 500ms ease;
 }
 
@@ -588,7 +588,7 @@ figure{
   color: #fff;
 }
 .main-menu .navigation > li > ul > li:hover{
-  background: #71b100;
+  background: #8BD804;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -601,7 +601,7 @@ figure{
   top: 0px;
   font-size:18px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
-  color:#71b100;
+  color:#8BD804;
   width: 50px;
   height: 47px;
   line-height: 47px;
@@ -629,7 +629,7 @@ figure{
 }
 .sticky-header .main-menu .navigation > li.current > a,
 .sticky-header .main-menu .navigation > li:hover > a{
-  background: #71b100;
+  background: #8BD804;
   color: #ffffff;
 }
 .sticky-header .main-menu{
@@ -983,7 +983,7 @@ figure{
   font-weight: 600;
   padding: 12px 22px 12px 22px;
   text-align: center;
-  background: #71b100;
+  background: #8BD804;
   text-transform: uppercase;
   margin-right: 32px;
   cursor: pointer;
@@ -991,7 +991,7 @@ figure{
   border-radius: 22px 22px 0px 0px;
 -moz-border-radius: 22px 22px 0px 0px;
 -webkit-border-radius: 22px 22px 0px 0px;
-border: 0px solid #71b100;
+border: 0px solid #8BD804;
 }
 .destin-details .tab-title li.active{   
   background: #044372;
@@ -1002,7 +1002,7 @@ border: 0px solid #71b100;
   border-radius: 22px 22px 0px 0px;
   -moz-border-radius: 22px 22px 0px 0px;
   -webkit-border-radius: 22px 22px 0px 0px;
-  border: 0px solid #71b100;
+  border: 0px solid #8BD804;
   color: #044372;
   background-color: #ffffff;
 }
@@ -2592,4 +2592,24 @@ border: 0px solid #71b100;
   font-size: 12px;
   border-radius: 3px;
   text-transform: uppercase;
+}
+
+
+#thTable{
+  background:#8BD804; 
+  border-radius: 22px 22px 0px 0px;
+  -moz-border-radius: 22px 22px 0px 0px;
+  -webkit-border-radius: 22px 22px 0px 0px;
+  border: 0px solid #8BD804;
+  color: #ffffff;
+  padding: 8px;
+  margin: 3px;
+}
+
+ .tablaEventos{
+  border-collapse: separate;
+	border-spacing: 7px;
+}
+.tablaEventos td{
+  background-color: #D3D3D3;
 }
