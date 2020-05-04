@@ -48,25 +48,32 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix" id="menu_nav">
-                                        <li class="current"><a href="#">INICIO</a></li>
-                                        <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
+                                        <li id="InicioFSid" class="current"><a href="#">INICIO</a></li>
+                                        <li id="NosotrosFSid"class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                             <ul>
-                                                <li id="btnSomosBarra"><a href="#NosotrosFS">¿Quienes Somos?</a></li>
-                                                <li id="btnMisionBarra"><a href="#NosotrosFS">Mision</a></li>
-                                                <li id="btnVisionBarra"><a href="#NosotrosFS">Vision</a></li>
+                                                <li id="btnSomosBarra"><a href="#details">¿Quienes Somos?</a></li>
+                                                <li id="btnMisionBarra"><a href="#review">Mision</a></li>
+                                                <li id="btnVisionBarra"><a href="#review1">Vision</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="#">SERVICIOS</a>
+                                        <li id="ServiciosFSid" class="dropdown"><a href="#">SERVICIOS</a>
                                             <ul>
                                                 <li><a href="#AreaTecnica">Área Técnica</a></li>
                                                 <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
                                                 <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#tabClientes">CLIENTES</a></li>  
-                                        <li><a href="#SociosFS">socios</a></li>   
-                                        <li><a href="#EventosFS">eventos</a></li>   
-                                        <li><a href="#ContactoFS">Contacto</a></li>   
+                                        <li id="ClientesFSid" class="dropdown"><a href="#tabClientes">CLIENTES</a>
+                                            <ul>
+                                                <li><a href="#Testimonios">Testimonios</a></li>
+                                                <li><a href="#AreaTecnica">Área Técnica</a></li>
+                                                <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
+                                                <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
+                                            </ul>
+                                        </li>  
+                                        <li id="SociosFSid"><a href="#SociosFS">socios</a></li>   
+                                        <li id="EventosFSid"><a href="#EventosFS">eventos</a></li>   
+                                        <li id="ContactoFSid"><a href="#ContactoFS">Contacto</a></li>   
                                     </ul>
                                 </div>
                             </nav>
@@ -99,27 +106,32 @@
                                     </div>
                                     <div class="navbar-collapse collapse clearfix">
                                         <ul class="navigation clearfix" id="menu_nav">
-                                            <li class="current"><a href="#">INICIO</a></li>
-                                            <li class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
+                                            <li id="InicioFSid" class="current"><a href="#">INICIO</a></li>
+                                            <li id="NosotrosFSid"class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                                 <ul>
-                                                    <li id="btnSomosBarra"><a href="#NosotrosFS">¿Quienes Somos?</a></li>
-                                                    <li id="btnMisionBarra"><a href="#NosotrosFS">Mision</a></li>
-                                                    <li id="btnVisionBarra"><a href="#NosotrosFS">Vision</a></li>
+                                                    <li id="btnSomosBarra"><a href="#details">¿Quienes Somos?</a></li>
+                                                    <li id="btnMisionBarra"><a href="#review">Mision</a></li>
+                                                    <li id="btnVisionBarra"><a href="#review1">Vision</a></li>
                                                 </ul>
                                             </li>
-                                            
-                                            <li class="dropdown"><a href="#">SERVICIOS</a>
+                                            <li id="ServiciosFSid" class="dropdown"><a href="#">SERVICIOS</a>
                                                 <ul>
                                                     <li><a href="#AreaTecnica">Área Técnica</a></li>
                                                     <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
                                                     <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                                 </ul>
                                             </li>
-
-                                            <li><a href="#tabClientes">CLIENTES</a></li>  
-                                            <li><a href="#SociosFS">socios</a></li>   
-                                            <li><a href="#EventosFS">eventos</a></li>   
-                                            <li><a href="#ContactoFS">Contacto</a></li>     
+                                            <li id="ClientesFSid" class="dropdown"><a href="#tabClientes">CLIENTES</a>
+                                                <ul>
+                                                    <li><a href="#Testimonios">Testimonios</a></li>
+                                                    <li><a href="#AreaTecnica">Área Técnica</a></li>
+                                                    <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
+                                                    <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
+                                                </ul>
+                                            </li>  
+                                            <li id="SociosFSid"><a href="#SociosFS">socios</a></li>   
+                                            <li id="EventosFSid"><a href="#EventosFS">eventos</a></li>   
+                                            <li id="ContactoFSid"><a href="#ContactoFS">Contacto</a></li>   
                                         </ul>
                                     </div>
                                 </nav>
@@ -164,7 +176,7 @@
 
 
     <!-- NOSOTROS MODULO -->
-    <section class="destin-details" id="NosotrosFS">
+    <section class="destin-details NosotrosFSclass" id="NosotrosFS">
         <div class="">
             <h2 class="sec-title centred">CONOCENOS MÁS</h2>
             <br>
@@ -197,7 +209,7 @@
                                         Contamos con una red de socios y contactos en los principales mercados del mundo, que nos ha permitido crecer y ofrecer nuestros servicios en toda Latinoamérica (Brasil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México y Perú).
                                     </div>    
     
-                                    <div class="text" style="color: white;">
+                                    <div class="text ServiciosFSclass" style="color: white;">
                                         En el 2008 el grupo crea FS Certificaciones, primer organismo de inspección acreditado ante el INACAL, y en el 2013 implementa un Laboratorio de ensayo, también acreditado ante la misma entidad. Esto nos ha permitido ofrecer un servicio integral a nuestros clientes.
                                     </div>
                                     
@@ -231,7 +243,7 @@
                                             <p class="text"  align="center" style="color: white;">Disponer de un staff de consultores de reconocida experiencia, el cual está sujeto a una capacitación continua</p>
                                         </div>
     
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 ServiciosFSclass">
                                             <img src="images/FS/mision33.png" alt="" style="width: 100px; height: 100px;">
                                             <br><br>
                                             <p class="text"  align="center" style="color: white;">Un ambiente de trabajo en el cual nuestros colaboradores pueden equilibrar el trabajo y la vida familiar.</p>
@@ -259,7 +271,7 @@
                                         Que nuestras unidades de negocio sean reconocidas en Latinoamérica como un referente en la prestación de servicios de alta calidad técnica.
                                     </div>
                                     
-                                    <div class="text" style="color: white;">
+                                    <div class="text ServiciosFSclass" style="color: white;">
                                         Que los servicios ofrecidos faciliten y permitan elcrecimiento sostenible de nuestros clientes.
                                     </div>
                                 </div>
@@ -274,56 +286,12 @@
         </div>
     </section>
 
-
-    <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
-    <!-- FIN NOSOTROS MODULO -->
-  
-
-    <!-- TESTIMONIOS DE CLIENTES -->
-    <section class="testimonial-section sec-pad centred" style="background-image: url(images/FS/grupofs-5-testimonios.jpg);">
-        <div class="container">
-            <h2 class="sec-title">Testimonios de Nuestros Clientes</h2>
-            <div class="title-text"></div>
-            <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2">
-                    <div class="testimonial-slider">
-                        <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
-                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
-                            </div>
-                            <div class="text col-md-6">
-                                Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
-                            </div>
-                        </div>
-                        <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
-                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
-                            </div>
-                            <div class="text col-md-6">
-                               Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
-                            </div>
-                        </div>
-                        <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
-                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
-                            </div>
-                            <div class="text col-md-6">
-                               Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FIN DE TESTIMONIOS DE CLIENTES -->
-    <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
+ <!-- FIN NOSOTROS MODULO -->
+   
+    <section class="sec-pad-espacio centred ServiciosFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
 
-    <section class="testimonial-section-service gallery-section sec-pad" id="AreaTecnica" style="background-image: url(images/FS/grupofs-6tecnica.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="AreaTecnica" style="background-image: url(images/FS/grupofs-6tecnica.jpg);"> 
        <div class="container"> 
         <div class="sortable-masonry mixed-gallery-section">
             <ul class="filter-tabs filter-btns post-filter centred">
@@ -339,7 +307,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12">
                              
-                            <div class="float-right">
+                            <div class="float-right col-md-8">
                                 <img src="images/FS/AreaTecni.png" alt="" width="240px" height="80px">
                            </div>
                            
@@ -359,11 +327,11 @@
                                             </div>
                                         </div>  
                                         <div class="acc-content collapsed">
-                                            <p><b style="color:#044372; font-weight: bold;">Diagnóstico:</b> Determinar las condiciones iniciales y plani-ficar el proceso de documentación e implementación.<span  style="color: #EE8700;" class="plus fa fa-plus"  data-toggle="modal" data-target="#ModalDiagnostico"></span></p>
+                                            <p><b style="color:#044372; font-weight: bold;">Diagnóstico:</b> Determinar las condiciones iniciales y planificar el proceso de documentación e implementación.<span  style="color: #EE8700;" class="plus fa fa-plus"  data-toggle="modal" data-target="#ModalDiagnostico"></span></p>
 
                                             <p><b style="color:#044372; font-weight: bold;">Documentación e Implementación: </b>Diseñar un sistema acorde a los requisitos de la Norma de interés. <span style="color: #EE8700;" class="plus fa fa-plus" data-toggle="modal" data-target="#ModalDocumentacion"></span></p>
 
-                                            <p><b style="color:#044372; font-weight: bold;">Auditoria interna: </b>Evaluar conformidad contra los requi-sitos de la Norma de interés para contribuir a la mejora del Sistema.<span style="color: #EE8700;" class="plus fa fa-plus" data-toggle="modal" data-target="#ModalAuditoria"></span></p>
+                                            <p><b style="color:#044372; font-weight: bold;">Auditoria interna: </b>Evaluar conformidad contra los requisitos de la Norma de interés para contribuir a la mejora del Sistema.<span style="color: #EE8700;" class="plus fa fa-plus" data-toggle="modal" data-target="#ModalAuditoria"></span></p>
 
                                             <p><b style="color:#044372; font-weight: bold;">Aprendizaje: </b>Lograr  la  toma  de  conciencia  y  formación  del personal, promoviendo cultura.<span style="color: #EE8700;" class="plus fa fa-plus" data-toggle="modal" data-target="#ModalAprendizaje"></span></p>
                                         </div>
@@ -434,7 +402,7 @@
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
     
 
-    <section class="testimonial-section-service gallery-section sec-pad " id="AsuntosRegulatorios" style="background-image: url(images/FS/grupofs-7regulatorios.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="AsuntosRegulatorios" style="background-image: url(images/FS/grupofs-7regulatorios.jpg);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
@@ -466,14 +434,14 @@
                                 </div>
 
                                 <div class="acc-content collapsed">
-                                    <p><b style="color:#044372">Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                     -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
-                                    <p><b style="color:#044372">Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
 
-                                    <p><b style="color:#044372">Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
 
-                                    <p><b style="color:#044372">Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
                                 </div>
 
                             </div>
@@ -481,7 +449,7 @@
 
                             <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                 <div class="acc-btn">
-                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Autorización de Laboratorio – Buenas Prácticasde Manufactura (DIGEMID)</b></div>
+                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Autorización de Laboratorio – Buenas Prácticas de Manufactura (DIGEMID)</b></div>
                                     <div class="toggle-icon">
                                         <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                     </div>
@@ -492,7 +460,7 @@
                             </div>
                             <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                 <div class="acc-btn">
-                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Autorización de Droguería - Buenas Prácticasde Almacenamiento (DIGEMID)</b></div>
+                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Autorización de Droguería - Buenas Prácticas de Almacenamiento (DIGEMID)</b></div>
                                     <div class="toggle-icon">
                                         <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                     </div>
@@ -514,7 +482,7 @@
                             </div>
                             <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                 <div class="acc-btn">
-                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Elaboración de Tabla Nutricional y AdvertenciasPublicitarias (Octógonos)</b></div>
+                                    <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Elaboración de Tabla Nutricional y Advertencias Publicitarias (Octógonos)</b></div>
                                     <div class="toggle-icon">
                                         <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                     </div>
@@ -558,7 +526,7 @@
     
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
 
-    <section class="testimonial-section-service gallery-section sec-pad " id="ProcesosTermicos" style="background-image: url(images/FS/grupofs-8termicos.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="ProcesosTermicos" style="background-image: url(images/FS/grupofs-8termicos.jpg);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
@@ -593,7 +561,7 @@
                                         </div>
         
                                         <div class="acc-content collapsed">
-                                            <p>Penetración de calor (estudios Fo) y distribución de temperatura en autoclaves, marmitas, secadores, pasteurizadores, entre otros.Sistemas  de  procesamiento  y  envasado  aséptico;  asi  como,              llenado y mantenimiento en caliente/frío.Mapeos térmicos (frío y calor), curvas o Perfiles de temperatura (mapeos térmicos), entre otros.</p>
+                                            <p>Penetración de calor (estudios F<small>o</small>) y distribución de temperatura en autoclaves, marmitas, secadores, pasteurizadores, entre otros.Sistemas  de  procesamiento  y  envasado  aséptico;  asi  como,              llenado y mantenimiento en caliente/frío.Mapeos térmicos (frío y calor), curvas o Perfiles de temperatura (mapeos térmicos), entre otros.</p>
                                         </div>
         
                                     </div>
@@ -632,7 +600,7 @@
                                             <p>Ante la US FDA (Registros FDA: Bioterrorismo, FCE y SID # por producto), y otros países que requieran respaldo del tratamiento térmico (Colombia, Chile, Perú, etc.).Remoción del estatus de “Import Alert” (Lista Roja de la US FDA), para evitar detenciones automáticas al arribo de su mercadería </p>
                                         </div>
                                     </div>
-                                    <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
+                                    <div class="accordion animated out SociosFSclass" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
                                             <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Venta de Equipos de Recolección y Software de Análisis</b></div>
                                             <div class="toggle-icon">
@@ -657,11 +625,11 @@
      </div>
     </section>
 
-    <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
+    <section class="sec-pad-espacio centred SociosFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
   
     <!-- socios -->
-    <section class="testimonial-section sec-pad centred" id="SociosFS" style="background-image: url(images/FS/grupofs-10socios.jpg);">
+    <section class="testimonial-section sec-pad centred SociosFSclass" id="SociosFS" style="background-image: url(images/FS/grupofs-10socios.jpg);">
         <div class="container">
             <h1 class="sec-title" style="color: #EE8700; text-align: center;">Socios</h1>
                      <br>
@@ -679,7 +647,7 @@
                         <figure class="author-thumb" ><img src="images/FS/FSC_Cuadrado.png" alt=""></figure>
                     </div>
                          <br>
-                    <div class="row">
+                    <div class="row ClientesFSclass">
                         <figure class="author-thumb" style="padding-right: 5%;"><img src="images/FS/FSC_Cuadrado.png" alt=""></figure>
                         <figure class="author-thumb" style="padding-right: 5%;"><img src="images/FS/FSC_Cuadrado.png" alt=""></figure>
                         <figure class="author-thumb"><img src="images/FS/FSC_Cuadrado.png" alt=""></figure>
@@ -694,11 +662,11 @@
     <!-- socios end -->
 
     
-    <section class="sec-pad-espacio centred" style="background-color: white;" id="ServiciosFS"></section>
+    <section class="sec-pad-espacio centred ClientesFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
 
       <!-- Clientes -->
-    <section class="testimonial-section sec-pad centred" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
+    <section class="testimonial-section sec-pad centred ClientesFSclass" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
        
         <div class="destin-details"  id="tabClientes">
             <div class="">
@@ -890,27 +858,71 @@
     </section>
     <!-- Clientes end -->
 
+    <section class="sec-pad-espacio centred " style="background-color: white;" id="ServiciosFS"></section>
+   
+    <!-- TESTIMONIOS DE CLIENTES -->
+    <section class="testimonial-section sec-pad centred ClientesFSclass" style="background-image: url(images/FS/grupofs-5-testimonios.jpg);">
+        <div class="container">
+            <h2 class="sec-title">Testimonios de Nuestros Clientes</h2>
+            <div class="title-text"></div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-content row">
+                            <div class="author-info col-md-6">
+                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
+                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
+                            </div>
+                            <div class="text col-md-6 EventosFSclass">
+                                Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
+                            </div>
+                        </div>
+                        <div class="testimonial-content row">
+                            <div class="author-info col-md-6">
+                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
+                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
+                            </div>
+                            <div class="text col-md-6 EventosFSclass">
+                               Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
+                            </div>
+                        </div>
+                        <div class="testimonial-content row">
+                            <div class="author-info col-md-6">
+                                <figure class="author-thumb"><img src="images/resource/1.png" alt=""></figure>
+                                <h4>DELTAGEN DEL PERÚ S.A.</h4>
+                            </div>
+                            <div class="text col-md-6 EventosFSclass">
+                               Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN DE TESTIMONIOS DE CLIENTES -->
 
-    <section class="sec-pad-espacio centred" style="background-color: white;" id=""></section> <!-- Espaciado -->
+
+    <section class="sec-pad-espacio centred EventosFSclass" style="background-color: white;" id=""></section> <!-- Espaciado -->
     
 
     <!-- Eventos -->
-    <section class="testimonial-section sec-pad centred" id="EventosFS" style="background-image: url(images/FS/grupofs-11eventos.jpg">
+    <section class="testimonial-section sec-pad centred EventosFSclass" id="EventosFS" style="background-image: url(images/FS/grupofs-11eventos.jpg">
         <div class="container">
             <h1 class="sec-title">Eventos</h1>
                      <br>
             <div class="title-text"></div>
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-1">
                     <!-- Espaciado -->
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-10">
                     <table class="tablaEventos">
 
                         <tr>
                       
-                          <th style="width: 70%;" id="thTable">Descripción del Evento</th>
+                          <th style="width: 90%;" id="thTable">Descripción del Evento</th>
                       
                           <th style="width: 15%;" id="thTable">Detalles</th>
                       
@@ -920,7 +932,7 @@
                       
                         <tr>
                       
-                          <td><p style="color:#044372; font-weight: bold;">Seminario Taller - Como exportar alimentos a EE.UU</p> <p>04 de OCTUBRE - 2019</p></td>
+                          <td><p style="color:#044372; font-weight: bold;"  class="float-left ">&nbsp; Seminario Taller - Como exportar alimentos a EE.UU</p><br> <p class="float-left">&nbsp; 04 de OCTUBRE - 2019</p></td>
                       
                           <td><i style="color:#044372;" class="fa fa-plus"></i></td>
                       
@@ -930,7 +942,7 @@
                       
                         <tr>
                       
-                          <td><p style="color:#044372; font-weight: bold;">Fraude Alimentario</p> <p>11 de OCTUBRE - 2019</p></td>
+                          <td><p style="color:#044372; font-weight: bold;" class="float-left">&nbsp; Fraude Alimentario &nbsp;&nbsp;&nbsp;&nbsp;</p> <p style="margin-left: 2px;" >&nbsp; 11 de OCTUBRE - 2019</p></td>
                       
                           <td><i style="color:#044372;" class="fa fa-plus"></i></td>
                       
@@ -940,7 +952,7 @@
                       
                         <tr>
                       
-                            <td><p style="color:#044372; font-weight: bold;">Programa de Defensa Alimentaria (Food Defense)</p> <p>22 de AGOSTO - 2019</p></td>
+                            <td><p style="color:#044372; font-weight: bold;" class="float-left">&nbsp; Programa de Defensa Alimentaria (Food Defense)</p> <br><p class="float-left">&nbsp; 22 de AGOSTO - 2019</p></td>
                         
                             <td><i style="color:#044372;" class="fa fa-plus"></i></td>
                         
@@ -950,7 +962,7 @@
 
                         <tr>
                       
-                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p> <p>&nbsp;</p></td>
+                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p><br> <p>&nbsp;</p></td>
                         
                             <td><i style="color:#044372;" class="fa fa-plus"></i></td>
                         
@@ -960,18 +972,18 @@
 
                         <tr>
                       
-                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p> <p>&nbsp;</p></td>
+                            <td class="ContactoFSclass"><p style="color:#044372; font-weight: bold;">&nbsp;</p><br> <p>&nbsp;</p></td>
                         
-                            <td><i style="color:#044372;" class="fa fa-plus"></i></td>
+                            <td class="ContactoFSclass"><i style="color:#044372;" class="fa fa-plus"></i></td>
                         
-                            <td><i style="color:#044372;" class="fa fa-bullseye"></i></td>
+                            <td class="ContactoFSclass"><i style="color:#044372;" class="fa fa-bullseye"></i></td>
                       
                         </tr>
                       
                       </table>
                 </div>
                 
-                <div class="col-lg-2">
+                <div class="col-lg-1 ContactoFSclass">
                     <!-- Espaciado -->
                 </div>
                
@@ -982,19 +994,19 @@
     <!-- Eventos end -->
     
 
-    <section class="sec-pad-espacio centred" style="background-color: white;" id=""></section> <!-- Espaciado -->
+    <section class="sec-pad-espacio centred ContactoFSclass" style="background-color: white;" id=""></section> <!-- Espaciado -->
 
 
 
     <!-- CONTACTO -->
    
-    <section class="contact-section sec-pad testimonial-section-service" id="ContactoFS"  style="background-image: url(images/FS/grupofs-12contacto.jpg);">
+    <section class="contact-section sec-pad testimonial-section-service ContactoFSclass" id="ContactoFS"  style="background-image: url(images/FS/grupofs-12contacto.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 contact-column">
                     <div class="contact-form-area">
 
-                        <div class="float-left">
+                        <div class="float-left col-md-8">
                             <img src="images/FS/Contactenos.png" alt="" width="240px" height="80px">
                         </div>
                         <br><br><br><br><br>
@@ -1282,12 +1294,11 @@
 <script src="js/wow.js"></script>
 <script src="js/validation.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBigtWYNcagoTLTvwGBv8hQ3YESEb3TGoE"></script>
 <script src="js/isotope.js"></script>
 <script src="js/gmaps.js"></script>
 <script src="js/map-helper.js"></script>
-  
+<script src="js/scroll.js"></script>
 
 <!-- main-js -->
 <script src="js/script.js"></script>

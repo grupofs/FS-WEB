@@ -434,17 +434,17 @@
 		$("#btnClientes").click();
 	}
 
-	$("#btnMisionBarra").click(function(){
-		$("#btnMision").click();
-	})
+	// $("#btnMisionBarra").click(function(){
+	// 	$("#btnMision").click();
+	// })
 
-	$("#btnSomosBarra").click(function(){
-		$("#btnSomos").click();
-	})
+	// $("#btnSomosBarra").click(function(){
+	// 	$("#btnSomos").click();
+	// })
 
-	$("#btnVisionBarra").click(function(){
-		$("#btnVision").click();
-	})
+	// $("#btnVisionBarra").click(function(){
+	// 	$("#btnVision").click();
+	// })
 
 
 	/*	=========================================================================
