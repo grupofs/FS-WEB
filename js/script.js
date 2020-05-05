@@ -432,6 +432,8 @@
 	
 	function clickCliente(){
 		$("#btnClientes").click();
+		$('#btnSomos').addClass('active');
+        $('#btnSomos').click();
 	}
 
 	// $("#btnMisionBarra").click(function(){
@@ -481,6 +483,7 @@
 		handlePreloader();
 		enableMasonry();
 		galleryMasonaryLayout();
+		clickCliente();
 	});
 
 	
