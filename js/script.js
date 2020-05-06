@@ -484,21 +484,18 @@
 		$("#btnClientes").click();
 		$('li').removeClass('current');
 		$("#btnClientes").addClass('active');
-		console.log('Area Tecnica')
 	})
 
 	$("#btnAsuntos1").click(function(){
 		$("#btnRegulatorio").click();
 		$('li').removeClass('current');
 		$("#btnRegulatorio").addClass('active');
-		console.log('Asuntos')
 	})
 
 	$("#btnProcesosTermicos1").click(function(){
 		$("#btnTermicos").click();
 		$('li').removeClass('current');
 		$("#btnTermicos").addClass('active');
-		console.log('Procesos')
 	})
 	
 

@@ -51,9 +51,6 @@ $(document).ready(function(){
             $('li').removeClass('current');
             $('li#ClientesFSid').addClass('current');
 
-            $('#btnClientes').addClass('active');
-            $('#btnClientes').click();
-
             $('div#socios_animacion').removeClass('animated fadeInLeftBig');
             $('div#areaTecnica').addClass('animated flipInX');
         } 
