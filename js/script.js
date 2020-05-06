@@ -431,23 +431,76 @@
 	
 	
 	function clickCliente(){
-		$("#btnClientes").click();
+		
 		$('#btnSomos').addClass('active');
-        $('#btnSomos').click();
 	}
 
-	// $("#btnMisionBarra").click(function(){
-	// 	$("#btnMision").click();
-	// })
+	$("#btnMisionBarra").click(function(){
+		$("#btnMision").click();
+	})
 
-	// $("#btnSomosBarra").click(function(){
-	// 	$("#btnSomos").click();
-	// })
+	$("#btnSomosBarra").click(function(){
+		$("#btnSomos").click();
+	})
 
-	// $("#btnVisionBarra").click(function(){
-	// 	$("#btnVision").click();
-	// })
+	$("#btnVisionBarra").click(function(){
+		$("#btnVision").click();
+	})
 
+	$("#btnMisionBarra1").click(function(){
+
+		$("#btnMision").click();
+	})
+
+	$("#btnSomosBarra1").click(function(){
+		$("#btnSomos").click();
+	})
+
+	$("#btnVisionBarra1").click(function(){
+		$("#btnVision").click();
+	})
+	
+	
+	// Clientes Tabs
+	$("#btnAreaTecnica").click(function(){
+		$("#btnClientes").click();
+		$('li').removeClass('current');
+		$("#btnClientes").addClass('active');
+	})
+
+	$("#btnAsuntos").click(function(){
+		$("#btnRegulatorio").click();
+		$('li').removeClass('current');
+		$("#btnRegulatorio").addClass('active');
+	})
+
+	$("#btnProcesosTermicos").click(function(){
+		$("#btnTermicos").click();
+		$('li').removeClass('current');
+		$("#btnTermicos").addClass('active');
+	})
+
+	$("#btnAreaTecnica1").click(function(){
+		$("#btnClientes").click();
+		$('li').removeClass('current');
+		$("#btnClientes").addClass('active');
+		console.log('Area Tecnica')
+	})
+
+	$("#btnAsuntos1").click(function(){
+		$("#btnRegulatorio").click();
+		$('li').removeClass('current');
+		$("#btnRegulatorio").addClass('active');
+		console.log('Asuntos')
+	})
+
+	$("#btnProcesosTermicos1").click(function(){
+		$("#btnTermicos").click();
+		$('li').removeClass('current');
+		$("#btnTermicos").addClass('active');
+		console.log('Procesos')
+	})
+	
 
 	/*	=========================================================================
 	When document is Scrollig, do

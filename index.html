@@ -63,12 +63,12 @@
                                                 <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                             </ul>
                                         </li>
-                                        <li id="ClientesFSid" class="dropdown"><a href="#tabClientes">CLIENTES</a>
+                                        <li id="ClientesFSid" class="dropdown"><a href="#ClientesFS">CLIENTES</a>
                                             <ul>
                                                 <li><a href="#Testimonios">Testimonios</a></li>
-                                                <li><a href="#AreaTecnica">Área Técnica</a></li>
-                                                <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
-                                                <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
+                                                <li id="btnAreaTecnica"><a href="#ClientesFS">Área Técnica</a></li>
+                                                <li id="btnAsuntos"><a href="#ClientesFS">Asuntos Regulatorios</a></li>
+                                                <li id="btnProcesosTermicos"><a href="#ClientesFS">Procesos Térmicos</a></li>
                                             </ul>
                                         </li>  
                                         <li id="SociosFSid"><a href="#SociosFS">socios</a></li>   
@@ -109,9 +109,9 @@
                                             <li id="InicioFSid" class="current"><a href="#">INICIO</a></li>
                                             <li id="NosotrosFSid"class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                                 <ul>
-                                                    <li id="btnSomosBarra"><a href="#details">¿Quienes Somos?</a></li>
-                                                    <li id="btnMisionBarra"><a href="#review">Mision</a></li>
-                                                    <li id="btnVisionBarra"><a href="#review1">Vision</a></li>
+                                                    <li id="btnSomosBarra1"><a href="#details">¿Quienes Somos?</a></li>
+                                                    <li id="btnMisionBarra1"><a href="#review">Mision</a></li>
+                                                    <li id="btnVisionBarra1"><a href="#review1">Vision</a></li>
                                                 </ul>
                                             </li>
                                             <li id="ServiciosFSid" class="dropdown"><a href="#">SERVICIOS</a>
@@ -121,12 +121,12 @@
                                                     <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
                                                 </ul>
                                             </li>
-                                            <li id="ClientesFSid" class="dropdown"><a href="#tabClientes">CLIENTES</a>
+                                            <li id="ClientesFSid" class="dropdown"><a href="#ClientesFS">CLIENTES</a>
                                                 <ul>
                                                     <li><a href="#Testimonios">Testimonios</a></li>
-                                                    <li><a href="#AreaTecnica">Área Técnica</a></li>
-                                                    <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
-                                                    <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
+                                                    <li id="btnAreaTecnica1"><a href="#ClientesFS">Área Técnica</a></li>
+                                                    <li id="btnAsuntos1"><a href="#ClientesFS">Asuntos Regulatorios</a></li>
+                                                    <li id="btnProcesosTermicos1"><a href="#ClientesFS">Procesos Térmicos</a></li>
                                                 </ul>
                                             </li>  
                                             <li id="SociosFSid"><a href="#SociosFS">socios</a></li>   
@@ -209,7 +209,7 @@
                                         Contamos con una red de socios y contactos en los principales mercados del mundo, que nos ha permitido crecer y ofrecer nuestros servicios en toda Latinoamérica (Brasil, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México y Perú).
                                     </div>    
     
-                                    <div class="text ServiciosFSclass" style="color: white;">
+                                    <div class="text" style="color: white;">
                                         En el 2008 el grupo crea FS Certificaciones, primer organismo de inspección acreditado ante el INACAL, y en el 2013 implementa un Laboratorio de ensayo, también acreditado ante la misma entidad. Esto nos ha permitido ofrecer un servicio integral a nuestros clientes.
                                     </div>
                                     
@@ -243,7 +243,7 @@
                                             <p class="text"  align="center" style="color: white;">Disponer de un staff de consultores de reconocida experiencia, el cual está sujeto a una capacitación continua</p>
                                         </div>
     
-                                        <div class="col-md-4 ServiciosFSclass">
+                                        <div class="col-md-4 ">
                                             <img src="images/FS/mision33.png" alt="" style="width: 100px; height: 100px;">
                                             <br><br>
                                             <p class="text"  align="center" style="color: white;">Un ambiente de trabajo en el cual nuestros colaboradores pueden equilibrar el trabajo y la vida familiar.</p>
@@ -271,7 +271,7 @@
                                         Que nuestras unidades de negocio sean reconocidas en Latinoamérica como un referente en la prestación de servicios de alta calidad técnica.
                                     </div>
                                     
-                                    <div class="text ServiciosFSclass" style="color: white;">
+                                    <div class="text " style="color: white;">
                                         Que los servicios ofrecidos faciliten y permitan elcrecimiento sostenible de nuestros clientes.
                                     </div>
                                 </div>
@@ -627,7 +627,6 @@
 
     <section class="sec-pad-espacio centred SociosFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
-  
     <!-- socios -->
     <section class="testimonial-section sec-pad centred SociosFSclass" id="SociosFS" style="background-image: url(images/FS/grupofs-10socios.jpg);">
         <div class="container">
@@ -655,35 +654,33 @@
                     
 
                 </div>
-
+                <div class="ClientesFSclass"></div>
             </div>
         </div>
     </section>
     <!-- socios end -->
 
-    
-    <section class="sec-pad-espacio centred ClientesFSclass" style="background-color: white;" id="ServiciosFS"></section>
-
+    <section class="sec-pad-espacio centred ClientesFSclass" style="background-color: white;" id="ClientesFS"></section>
 
       <!-- Clientes -->
     <section class="testimonial-section sec-pad centred ClientesFSclass" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
        
-        <div class="destin-details"  id="tabClientes">
+        <div class="destin-details"  id="tabClientes" style="padding-top: 0%;">
             <div class="">
                 <h1 class="sec-title centred">CLIENTES</h1>
                 <br>
                 <!-- <div class="title-text centred">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,<br />sed quia consequuntur magni dolores eos qui ratione</div> -->
                 <div class="custom-tab-title-one centred" >
                     <ul class="tab-title clearfix">
-                        <li data-tab-name="areaTecnica" id="btnClientes">Área Técnica</li>
-                        <li data-tab-name="Asuntos"> Asuntos Regulatorios</li>
-                        <li data-tab-name="review1"> Procesos Térmicos</li>
+                        <li data-tab-name="Area" id="btnClientes">Área Técnica</li>
+                        <li data-tab-name="Asuntos" id="btnRegulatorio"> Asuntos Regulatorios</li>
+                        <li data-tab-name="Procesos" id="btnTermicos"> Procesos Térmicos</li>
                     </ul>
                 </div>
                 
                 <div class="tab-details-content-one">
                     
-                    <div class="tab-content" id="areaTecnica">
+                    <div class="tab-content animated flipInX" id="Area">
                         
                             <div class="row">
                                 <div class="container">
@@ -795,7 +792,7 @@
     
                     </div>
     
-                    <div class="tab-content  animated flipInX" id="review1">
+                    <div class="tab-content  animated flipInX" id="Procesos">
     
                             <div class="row">
                                 <div class="container">
@@ -854,14 +851,14 @@
                 </div>
             </div>
         </div>
-        
+        <div id="Testimonios"></div>
     </section>
     <!-- Clientes end -->
 
-    <section class="sec-pad-espacio centred " style="background-color: white;" id="ServiciosFS"></section>
+    <section class="sec-pad-espacio centred " style="background-color: white;" ></section>
    
     <!-- TESTIMONIOS DE CLIENTES -->
-    <section class="testimonial-section sec-pad centred ClientesFSclass" style="background-image: url(images/FS/grupofs-5-testimonios.jpg);">
+    <section class="testimonial-section sec-pad centred ClientesFSclass"  style="background-image: url(images/FS/grupofs-5-testimonios.jpg);">
         <div class="container">
             <h2 class="sec-title">Testimonios de Nuestros Clientes</h2>
             <div class="title-text"></div>
@@ -910,8 +907,6 @@
     <section class="testimonial-section sec-pad centred EventosFSclass" id="EventosFS" style="background-image: url(images/FS/grupofs-11eventos.jpg">
         <div class="container">
             <h1 class="sec-title">Eventos</h1>
-                     <br>
-            <div class="title-text"></div>
             <div class="row">
                 <div class="col-lg-1">
                     <!-- Espaciado -->
@@ -1003,7 +998,7 @@
     <section class="contact-section sec-pad testimonial-section-service ContactoFSclass" id="ContactoFS"  style="background-image: url(images/FS/grupofs-12contacto.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 contact-column">
+                <div class="col-lg-5 col-md-10 col-sm-10 contact-column">
                     <div class="contact-form-area">
 
                         <div class="float-left col-md-8">
@@ -1014,27 +1009,19 @@
 
                         <form id="contact-form" name="contact_form" class="default-form" action="#" method="post">
                             <div class="row">
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-group col-lg-6 col-md-46col-sm-12">
                                     <input type="text" name="form_name"  placeholder="Nombre Completo" required="">
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <input type="email" name="form_email"  placeholder="Correo Electronico*" required="">
                                 </div>
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <!-- <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <input type="text" name="form_telefono"  placeholder="Número de Telefono" required="">
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                    <!-- <div class="select-box">
-                                        <select name="Property" class="selectpicker">
-                                            <option>Property Type</option>
-                                            <option>Property Type</option>
-                                            <option>Property Type</option>
-                                            <option>Property Type</option>
-                                            <option>Property Type</option>
-                                        </select>
-                                    </div> -->
+                                   
                                     <input type="text" name="form_subject"  placeholder="Asunto" required="">
-                                </div>
+                                </div> -->
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                     <textarea placeholder="Escribir Mensaje" name="form_message" required=""></textarea>
                                 </div>
