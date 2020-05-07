@@ -38,7 +38,7 @@ $(document).ready(function(){
 
             $('div#quienes_somos').removeClass('animated flipInX') //QUITAMOS LA CLASE ANTERIOR AL SUBIR
          
-        }
+        } 
                 
         if ($('.SociosFSclass').offset().top < top) {
             $('li').removeClass('current');
@@ -71,4 +71,9 @@ $(document).ready(function(){
         }
     }
     }, 100);
+
+
+    var ano = (new Date).getFullYear();
+    $("#Año").text( ano );
+
 })
