@@ -28,7 +28,7 @@ $(document).ready(function(){
         if ($('.NosotrosFSclass').offset().top < top) {
             $('li').removeClass('current');
             $('li#NosotrosFSid').addClass('current');
-            $('div#quienes_somos').addClass('animated flipInX')
+            $('div#quienes_somos').addClass('animated fadeIn')
            
         }
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
             $('li').removeClass('current');
             $('li#ServiciosFSid').addClass('current');
 
-            $('div#quienes_somos').removeClass('animated flipInX') //QUITAMOS LA CLASE ANTERIOR AL SUBIR
+            $('div#quienes_somos').removeClass('animated fadeIn') //QUITAMOS LA CLASE ANTERIOR AL SUBIR
          
         } 
                 
@@ -44,30 +44,30 @@ $(document).ready(function(){
             $('li').removeClass('current');
             $('li#SociosFSid').addClass('current');
 
-            $('div#socios_animacion').addClass('animated fadeInLeftBig')
+            $('div#socios_animacion').addClass('animated fadeIn')
         }
 
         if ($('.ClientesFSclass').offset().top < top) {
             $('li').removeClass('current');
             $('li#ClientesFSid').addClass('current');
 
-            $('div#socios_animacion').removeClass('animated fadeInLeftBig');
-            $('div#areaTecnica').addClass('animated flipInX');
+            $('div#socios_animacion').removeClass('animated fadeIn');
+            $('div#areaTecnica').addClass('animated fadeIn');
         } 
         
         if ($('.EventosFSclass').offset().top < top) {
             $('li').removeClass('current');
             $('li#EventosFSid').addClass('current');
 
-            $('div#areaTecnica').removeClass('animated flipInX');
-            $('.tablaEventos').addClass('animated flipInX');
+            $('div#areaTecnica').removeClass('animated fadeIn');
+            $('.tablaEventos').addClass('animated fadeIn');
         }
 
         if ($('.ContactoFSclass').offset().top < top) {
             $('li').removeClass('current');
             $('li#ContactoFSid').addClass('current');
 
-            $('.tablaEventos').removeClass('animated flipInX');
+            $('.tablaEventos').removeClass('animated fadeIn');
         }
     }
     }, 100);

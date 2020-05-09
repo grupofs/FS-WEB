@@ -160,6 +160,10 @@ a:hover{
   color : #ffffff;
 }
 
+a#linkAR:hover{
+  background-color: transparent;
+}
+
 input,button,select,textarea{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -2612,4 +2616,14 @@ border: 0px solid #8BD804;
 }
 .tablaEventos td{
   background-color: #D3D3D3;
+}
+
+#SociosIMG{
+  width: 26%;
+  height: 50%;
+  padding-right: 25px;
+}
+
+#TestimonioIMG{
+  width: 60%;
 }
