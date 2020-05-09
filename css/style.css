@@ -2625,5 +2625,6 @@ border: 0px solid #8BD804;
 }
 
 #TestimonioIMG{
-  width: 60%;
+  /* width: 60%; */
+  padding-left: 5%;
 }
