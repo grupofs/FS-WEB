@@ -640,7 +640,7 @@ figure{
   margin-left: 40px;
 }
 .main-header .small-logo-box{
-  margin-top: 18px;
+  margin-top: 8px;
 }
 
 
@@ -2612,7 +2612,7 @@ border: 0px solid #8BD804;
 
  .tablaEventos{
   border-collapse: separate;
-	border-spacing: 7px;
+	border-spacing: 9px;
 }
 .tablaEventos td{
   background-color: #D3D3D3;
@@ -2625,6 +2625,6 @@ border: 0px solid #8BD804;
 }
 
 #TestimonioIMG{
-  /* width: 60%; */
+  width: 70%;
   padding-left: 5%;
 }
