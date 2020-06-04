@@ -1,3 +1,8 @@
+<?php 
+    include_once 'bd/conexion.php';
+   
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -934,7 +939,7 @@
                 <div class="col-lg-10">
                     <table class="tablaEventos table-responsive">
 
-                        <tr>
+                        <thead>
                       
                           <th style="width: 90%;" id="thTable">Descripción del Evento</th>
                       
@@ -942,58 +947,45 @@
                       
                           <th style="width: 15%;" id="thTable">Registrarse</th>
                       
-                        </tr>
-                      
-                        <tr>
-                      
-                          <td><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp; Seminario Taller - Como exportar alimentos a EE.UU</p> <p class="text-left font-weight-normal">&nbsp; 04 de OCTUBRE - 2019</p></td>
-                      
-                          <td><i style="color:#044372;" class="fa fa-plus"></i></td>
-                      
-                          <td><i style="color:#044372;" class="fa fa-bullseye"></i></td>
-                      
-                        </tr>
-                      
-                        <tr>
-                      
-                          <td><p style="color:#044372; font-weight: bold;" class="text-left">&nbsp; Fraude Alimentario </p> <p class="text-left font-weight-normal">&nbsp; 11 de OCTUBRE - 2019</p></td>
-                      
-                          <td><i style="color:#044372;" class="fa fa-plus"></i></td>
-                      
-                          <td><i style="color:#044372;" class="fa fa-bullseye"></i></td>
-                      
-                        </tr>
-                      
-                        <tr>
-                      
-                            <td><p style="color:#044372; font-weight: bold;" class="text-left">&nbsp; Programa de Defensa Alimentaria (Food Defense)</p><p class="text-left font-weight-normal">&nbsp; 22 de AGOSTO - 2019</p></td>
+                        </thead>
                         
-                            <td><i style="color:#044372;" class="fa fa-plus"></i></td>
-                        
-                            <td><i style="color:#044372;" class="fa fa-bullseye"></i></td>
-                      
-                        </tr>
+                        <tbody id="EventosBody">
 
-                        <tr>
-                      
-                            <td><p style="color:#044372; font-weight: bold;">&nbsp;</p><br> <p>&nbsp;</p></td>
-                        
-                            <td><i style="color:#044372;" class="fa fa-plus"></i></td>
-                        
-                            <td><i style="color:#044372;" class="fa fa-bullseye"></i></td>
-                      
-                        </tr>
+                        <?php 
+                             $pdo=getPDO();
 
-                        <tr>
-                      
-                            <td class="ContactoFSclass"><p style="color:#044372; font-weight: bold;">&nbsp;</p><br> <p>&nbsp;</p></td>
+                             if ($pdo) 
+                             {
+                            
+                                  $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 50;";
+                                  $stmt = $pdo->prepare($sql);
+                                  $stmt->execute(); 
+                                  
+                                  //Aquí, cualquiera de los dos procedimientos explicados en b1 y b2. 
+
+                                  $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                    foreach ($arr as $row) {
+                                        echo ' <tr>
                         
-                            <td class="ContactoFSclass"><i style="color:#044372;" class="fa fa-plus"></i></td>
+                                                <td><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
+                                            
+                                                <td><a href="http://grupofs.com/imagenes/'.$row["archivo_archivos"].'" target="_blank"><i style="color:#044372;" class="fa fa-plus" href="http://grupofs.com/imagenes/'.$row["archivo_archivos"].'"></i></a></td>
+                                            
+                                                <td><a href="'.$row["comentarios_text"].'" target="_blank"><i style="color:#044372;" class="fa fa-bullseye"></i></a></td>
+                                
+                                        </tr>';
+                                      
+
+                                    }
+                            
+                              } else {
+                                  echo "Hubo un problema con la conexión";
+                              }
+                        ?>
+                           
                         
-                            <td class="ContactoFSclass"><i style="color:#044372;" class="fa fa-bullseye"></i></td>
-                      
-                        </tr>
-                      
+                            
+                        </tbody>
                       </table>
                 </div>
                 
@@ -1420,7 +1412,7 @@
 <script src="js/wow.js"></script>
 <script src="js/validation.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBigtWYNcagoTLTvwGBv8hQ3YESEb3TGoE"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbFmCIpwcwqR3WdaZFg9YO5cArtMjjxqs"></script>
 <script src="js/isotope.js"></script>
 <script src="js/gmaps.js"></script>
 <script src="js/map-helper.js"></script>

@@ -2610,10 +2610,13 @@ border: 0px solid #8BD804;
   margin: 3px;
 }
 
- .tablaEventos{
+.tablaEventos{
   border-collapse: separate;
-	border-spacing: 9px;
+  border-spacing: 9px;
+  height: 500px;
+  overflow-y: scroll;
 }
+
 .tablaEventos td{
   background-color: #D3D3D3;
 }
