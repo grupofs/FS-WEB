@@ -1292,6 +1292,7 @@
                 <div class="modal-body p-4">
                     <h2>TechniCAL</h2>
                     <p>En el 2005 TechniCAL encuentra en Grupo FS a un socio que cumple con sus estándares técnicos y experiencia para en conjunto ofrecer sus servicios como Autoridades de Proceso en América Latina cuando los clientes requieren una Autoridad de Proceso con sede en EE.UU.</p> 
+                    <p><a href="https://tcal.com/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p>
                 </div>
                 
             </div>
@@ -1312,6 +1313,8 @@
                     <h2>Safety Tech Inc</h2>
                     <p>A principios del 2007 Safety Tech Inc y Grupo FS FS firman un acuerdo para poder ofrecer servicios que permitan facilitar el 
                         intercambio comercial de productos alimenticios entre América Latina y el Japón. </p> 
+
+                    <p><a href="https://safetytech.co.jp/en/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p>
                 </div>
                 
             </div>
@@ -1333,7 +1336,10 @@
                     <p>Grupo FS dentro de su permanente crecimiento se asoció con agriconsult peru para extender sus áreas de negocios 
                         y desde agosto de 2009 desarrolla algunos proyectos en conjunto, brindando soporte técnico en aspectos de calidad e 
                         inocuidad, fortaleciendo la cadena de valor, 
-                        con miras a comercializar estos productos en los mercados mundiales más exigentes.  </p> 
+                        con miras a comercializar estos productos en los mercados mundiales más exigentes.  
+                    </p>
+
+                     <p><a href="http://www.agc.pe/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p> 
                 </div>
                 
             </div>
@@ -1353,7 +1359,9 @@
                 <div class="modal-body p-4">
                     <h2>Spinak Consulting </h2>
                     <p>Desde sus inicios como empresa, Spinak Consulting, hizo una alianza con Grupo FS para brindar de manera conjunta servicios especializados a la Autoridades de Proceso en América Latina cuando los 
-                        clientes requieren una Autoridad de Proceso con sede en EE.UU. </p> 
+                        clientes requieren una Autoridad de Proceso con sede en EE.UU. 
+                    </p>
+
                 </div>
                 
             </div>
@@ -1373,6 +1381,9 @@
                 <div class="modal-body p-4">
                     <h2>FS Certificaciones</h2>
                     <p>Primer organismo de inspección acreditado en el Perú ante el INACAL, bajo la norma ISO 17020; y que a la fecha ofrece servicios de verificación de sistemas de inocuidad alimentaria, inspección y muestreo de lote, así como programas de homologación de proveedores. En el 2013 se implementa un Laboratorio de Ensayo, acreditado también ante el INACAL y ante SENASA, para la ejecución de ensayos microbiológicos, físico-químicos, sensoriales, estudios de vida útil, perfiles nutricionales, validación de procesos, estudios de enfrentamiento microbiano, entre otros estudios especializados.  </p> 
+
+                    
+                    <p><a href="https://www.fscertificaciones.com/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p>  
                 </div>
                 
             </div>
@@ -1394,6 +1405,8 @@
                     <p>El IFTPS (Institute for Thermal Process Specialists), es una organización internacional que lidera y congrega a los especialistas más renombrados en procesamiento térmico; que fomenta la investigación y educación en procedimientos, técnicas y requerimientos regulatorios del procesamiento térmico.
                     Grupo FS forma parte de este instituto y participa activamente en los congresos y comités para ofrecerle a nuestros clientes servicios que consideren los últimos avances tecnológicos, investigaciones científicas y criterios manejados por especialistas reconocidos en el procesamiento térmico a nivel mundial.
                     </p> 
+
+                    <p><a href="https://www.iftps.org/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p> 
                 </div>
                 
             </div>

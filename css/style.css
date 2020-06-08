@@ -2631,3 +2631,7 @@ border: 0px solid #8BD804;
   width: 70%;
   padding-left: 5%;
 }
+
+#noHover:hover {
+  background-color: transparent;
+}
