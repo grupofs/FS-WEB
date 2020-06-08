@@ -666,7 +666,7 @@
                          <br>
                     <div class="row">
                         <img id="SociosIMG" src="images/FS/Clientes/socio03.png" alt="" data-toggle="modal" data-target="#Spinak">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#iftps">
+                        <img id="SociosIMG" src="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#ifpts">
                         <img id="SociosIMG" src="images/FS/Clientes/socio05.png" alt="" data-toggle="modal" data-target="#fsc">
                     </div>
                     
@@ -957,11 +957,11 @@
                              if ($pdo) 
                              {
                             
-                                  $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 50;";
+                                  $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 60;";
                                   $stmt = $pdo->prepare($sql);
                                   $stmt->execute(); 
                                   
-                                  //Aquí, cualquiera de los dos procedimientos explicados en b1 y b2. 
+                                  //Aquí, recorremos la consulta select. 
 
                                   $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     foreach ($arr as $row) {
@@ -979,7 +979,7 @@
                                     }
                             
                               } else {
-                                  echo "Hubo un problema con la conexión";
+                                  echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
                               }
                         ?>
                            
@@ -1281,7 +1281,7 @@
 
         <!-- Modal TechniCAL-->
         <div class="modal fade " id="Technical" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1300,7 +1300,7 @@
 
         <!-- Modal safety-->
         <div class="modal fade " id="Safety" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1320,7 +1320,7 @@
 
         <!-- Modal Agriconsult-->
         <div class="modal fade " id="Agriconsult" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1342,7 +1342,7 @@
 
         <!-- Modal Spinak-->
         <div class="modal fade " id="Spinak" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1362,7 +1362,7 @@
 
         <!-- Modal FSC SOCIOS-->
         <div class="modal fade " id="fsc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1372,16 +1372,16 @@
                 </div>
                 <div class="modal-body p-4">
                     <h2>FS Certificaciones</h2>
-                    <p>En el 2008 el grupo empresarial crea FS CERTIFICACIONES, como primer organismo de inspección acreditado en el Perú ante el INACAL, bajo la norma ISO 17020; y a la fecha ofrece servicios de verificación de sistemas de inocuidad alimentaria, inspección y muestreo de lote,y programas de homologación de proveedores. En el 2013 se implementa un Laboratorio de Ensayo, acreditado también ante el INACAL y ante SENASA, como soporte a todos los servicios que se brindamos, ofreciéndoles a nuestros clientes la ejecución de ensayos microbiológicos, físico-químicos, sensoriales, estudios de vida útil, perfil nutricional, validación de procesos, estudios de enfrentamiento microbiano, entre otros estudios especializados.  </p> 
+                    <p>Primer organismo de inspección acreditado en el Perú ante el INACAL, bajo la norma ISO 17020; y que a la fecha ofrece servicios de verificación de sistemas de inocuidad alimentaria, inspección y muestreo de lote, así como programas de homologación de proveedores. En el 2013 se implementa un Laboratorio de Ensayo, acreditado también ante el INACAL y ante SENASA, para la ejecución de ensayos microbiológicos, físico-químicos, sensoriales, estudios de vida útil, perfiles nutricionales, validación de procesos, estudios de enfrentamiento microbiano, entre otros estudios especializados.  </p> 
                 </div>
                 
             </div>
             </div>
         </div>
 
-        <!-- Modal safety-->
-        <div class="modal fade " id="#" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+        <!-- Modal IFTPS -->
+        <div class="modal fade " id="ifpts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                 
@@ -1390,9 +1390,10 @@
                 </button>
                 </div>
                 <div class="modal-body p-4">
-                    <h2>Safety Tech Inc</h2>
-                    <p>A principios del 2007 Safety Tech Inc y Grupo FS FS firman un acuerdo para poder ofrecer servicios que permitan facilitar el 
-                        intercambio comercial de productos alimenticios entre América Latina y el Japón. </p> 
+                    <h2>IFTPS</h2>
+                    <p>El IFTPS (Institute for Thermal Process Specialists), es una organización internacional que lidera y congrega a los especialistas más renombrados en procesamiento térmico; que fomenta la investigación y educación en procedimientos, técnicas y requerimientos regulatorios del procesamiento térmico.
+                    Grupo FS forma parte de este instituto y participa activamente en los congresos y comités para ofrecerle a nuestros clientes servicios que consideren los últimos avances tecnológicos, investigaciones científicas y criterios manejados por especialistas reconocidos en el procesamiento térmico a nivel mundial.
+                    </p> 
                 </div>
                 
             </div>

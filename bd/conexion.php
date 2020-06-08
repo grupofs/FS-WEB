@@ -12,9 +12,7 @@ function getPDO () {
         return $pdo;
         
     } catch (PDOException $e) {
-        print "¡Error!: <br/>";
         return null;
-        echo 'error';
     }
 
 }
