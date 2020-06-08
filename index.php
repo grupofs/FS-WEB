@@ -1291,7 +1291,7 @@
                 </div>
                 <div class="modal-body p-4">
                     <h2>TechniCAL</h2>
-                    <p>En el 2005 TechniCAL encuentra en Grupo FS a un socio que cumple con sus estándares técnicos y experiencia para en conjunto ofrecer sus servicios como Autoridades de Proceso en América Latina cuando los clientes requieren una Autoridad de Proceso con sede en EE.UU.</p> 
+                    <p>En el 2005 TechniCAL encuentra en Grupo FS a un socio que cumple con sus estándares técnicos y experiencia para en conjunto ofrecer sus servicios como Autoridades de Proceso en América Latina, cuando los clientes requieren una Autoridad de Proceso con sede en EE.UU.</p> 
                     <p><a href="https://tcal.com/" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p>
                 </div>
                 
