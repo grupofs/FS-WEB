@@ -1018,26 +1018,20 @@
                         <br>
                         <div class="text">Por favor, complete el formulario para mandarnos un mensaje.</div>
 
-                        <form id="contact-form" name="contact_form" class="default-form" action="#" method="post">
+                        <form id="contact-form" name="contact_form" class="default-form">
                             <div class="row">
-                                <div class="form-group col-lg-6 col-md-46col-sm-12">
-                                    <input type="text" name="form_name"  placeholder="Nombre Completo" required="">
+                                <div class="form-group col-lg-6 col-md-46col-sm-12 ">
+                                    <input type="text" name="form_name" class="form_name" placeholder="Nombre Completo" required="">
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                    <input type="email" name="form_email"  placeholder="Correo Electronico*" required="">
+                                    <input type="email" name="form_email" class="form_email" placeholder="Correo Electronico*" required="">
                                 </div>
-                                <!-- <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                    <input type="text" name="form_telefono"  placeholder="Número de Telefono" required="">
-                                </div>
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
-                                   
-                                    <input type="text" name="form_subject"  placeholder="Asunto" required="">
-                                </div> -->
+                               
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <textarea placeholder="Escribir Mensaje" name="form_message" required=""></textarea>
+                                    <textarea placeholder="Escribir Mensaje" class="form_message" name="form_message" required=""></textarea>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button type="submit" class="theme-btn" data-loading-text="Procesando...">Enviar</button>
+                                    <button type="submit" id="btnEnviar" class="theme-btn" data-loading-text="Procesando...">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -1431,6 +1425,7 @@
 <script src="js/gmaps.js"></script>
 <script src="js/map-helper.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/contacto.js"></script>
 
 <!-- main-js -->
 <script src="js/script.js"></script>
