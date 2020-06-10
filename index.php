@@ -1354,7 +1354,7 @@
                     <h2>Spinak Consulting </h2>
                     <p>Desde sus inicios como empresa, Spinak Consulting, hizo una alianza con Grupo FS para brindar de manera conjunta servicios especializados en la industria de procesamiento y envasado aséptico en América Latina.  Su dueño y director tiene más de 40 años de experiencia trabajando en la US FDA (Agencia de Alimentos y Drogas) y en el USDA (Departamento de Agricultura). 
                     </p>
-
+                    <p><a href="images/FS/Clientes/Spinak_Consulting.pdf" target="_blank" style="color:#8BD804" class="font-weight-bold" id="noHover">Leer Más...</a></p> 
                 </div>
                 
             </div>
