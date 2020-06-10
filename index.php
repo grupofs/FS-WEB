@@ -1326,7 +1326,7 @@
                 </button>
                 </div>
                 <div class="modal-body p-4">
-                    <h2>agriconsult Peru</h2>
+                    <h2>Agriconsult Peru</h2>
                     <p>Grupo FS dentro de su permanente crecimiento se asoció con agriconsult peru para extender sus áreas de negocios 
                         y desde agosto de 2009 desarrolla algunos proyectos en conjunto, brindando soporte técnico en aspectos de calidad e 
                         inocuidad, fortaleciendo la cadena de valor, 
@@ -1352,8 +1352,7 @@
                 </div>
                 <div class="modal-body p-4">
                     <h2>Spinak Consulting </h2>
-                    <p>Desde sus inicios como empresa, Spinak Consulting, hizo una alianza con Grupo FS para brindar de manera conjunta servicios especializados a la Autoridades de Proceso en América Latina cuando los 
-                        clientes requieren una Autoridad de Proceso con sede en EE.UU. 
+                    <p>Desde sus inicios como empresa, Spinak Consulting, hizo una alianza con Grupo FS para brindar de manera conjunta servicios especializados en la industria de procesamiento y envasado aséptico en América Latina.  Su dueño y director tiene más de 40 años de experiencia trabajando en la US FDA (Agencia de Alimentos y Drogas) y en el USDA (Departamento de Agricultura). 
                     </p>
 
                 </div>
