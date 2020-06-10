@@ -9,7 +9,7 @@ $contenido .= "Mensaje: ".$mensaje;
 
 
 if (!empty($nombre)&&!empty($email)&&!empty($mensaje)) {
-    mail('info@meichtec.com','Contacto desde la Web',$contenido);
+    mail('sistemas@grupofs.com','Contacto desde la Web',$contenido);
 
     $data['response']="ok";
 
