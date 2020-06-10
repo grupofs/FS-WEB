@@ -1,12 +1,12 @@
 $(document).ready(function(){
    $("#contact-form").submit(function(e){
         e.preventDefault();
-        
+
         var datos = $(this).serialize();
 
         $.ajax({
             type:'post',
-            url:'http://meichtec.com/contacto.php',
+            url:'bd/contacto.php',
             data:datos,
             success:function(response){
                 console.log(response);
