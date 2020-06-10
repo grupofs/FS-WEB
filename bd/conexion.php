@@ -3,8 +3,8 @@
 
 function getPDO () {
    
-    $user = "foodsp_web";
-    $pass = "63plz5pdp2";
+    $user = "root";
+    $pass = "";
 
     try {
         $pdo = new PDO('mysql:host=localhost;dbname=foodsp_web', $user, $pass);
