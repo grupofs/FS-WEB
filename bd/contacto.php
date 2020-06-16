@@ -4,12 +4,12 @@ $nombre = $_POST['form_name'];
 $email = $_POST['form_email'];
 $mensaje = $_POST['form_message'];
 
-$contenido = "<b>De:</b> ".$email."\n";
-$contenido .= "<b>Mensaje:</b> ".$mensaje;
+$contenido = "DE: ".$email."\n";
+$contenido .= "MENSAJE: ".$mensaje;
 
 
 if (!empty($nombre)&&!empty($email)&&!empty($mensaje)) {
-    mail('sistemas@grupofs.com,consultasfs@grupofs.com','Contacto desde la Web',$contenido);
+    mail('sistemas@grupofs.com,consultasfs@grupofs.com','CONTACTO DESDE LA WEB',$contenido);
 
     $data['response']="ok";
 
