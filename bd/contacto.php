@@ -4,8 +4,8 @@ $nombre = $_POST['form_name'];
 $email = $_POST['form_email'];
 $mensaje = $_POST['form_message'];
 
-$contenido = "De: ".$email."\n";
-$contenido .= "Mensaje: ".$mensaje;
+$contenido = "<b>De:</b> ".$email."\n";
+$contenido .= "<b>Mensaje:</b> ".$mensaje;
 
 
 if (!empty($nombre)&&!empty($email)&&!empty($mensaje)) {
