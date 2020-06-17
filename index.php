@@ -538,11 +538,11 @@
                                     <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                     -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b></p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Servicio Nacional de Sanidad Agraria – SENASA </b></p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b></p>
                                 </div>
 
                             </div>
