@@ -25,8 +25,8 @@
 
 
     <!-- .preloader -->
-    <!-- <div class="preloader">
-    </div> -->
+    <div class="preloader">
+    </div>
     <!-- /.preloader -->
 
 
@@ -627,7 +627,7 @@
                                         </div>
                                         <div class="acc-content">
                                             <p style="font-size:15px;">Como socios de TechniCAL Inc. (EE.UU.) manejamos sus equipos (CALPlex®) y softwares para el análisis y procesamiento de datos (CALSoft5® y CALSoft6®), y le brindamos a la industria capacitación personalizada bajo estas dos modalidades para que aproveche todas las funcionalidades de su equipo y software.</p>
-                                            <small style="color:gray;">NOTA: No somos sus representantes de ventas.  Los equipos y softwares puede adquirirlos directamente en el sitio web de TechniCAL Inc.</small>
+                                            <small style="color:##8BD804;" class="text-dark">NOTA: No somos sus representantes de ventas.  Los equipos y softwares puede adquirirlos directamente en el sitio web de TechniCAL Inc.</small>
                                         </div>
                                     </div>
                                    
