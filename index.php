@@ -25,8 +25,8 @@
 
 
     <!-- .preloader -->
-    <div class="preloader">
-    </div>
+    <!-- <div class="preloader">
+    </div> -->
     <!-- /.preloader -->
 
 
@@ -218,7 +218,7 @@
                                     <br>
                                     <div class="text" style="color: white;">
                                         Somos un grupo empresarial creado en el 2003 para ofrecer inicialmente, servicios de consultoría en sistemas de gestión de calidad e inocuidadalimentaria. 
-                                        Con el tiempo diversificamos nuestros servicios en áreas de   soporte en asuntos regulatorios, salud y seguridad ocupacional, procesamiento térmico, mermas, entre otros; manteniendo como fortaleza nuestro sistema de atención personalizado y permanente con todosnuestros clientes.
+                                        Con el tiempo diversificamos nuestros servicios en áreas de   soporte en asuntos regulatorios, salud y seguridad ocupacional, procesamiento térmico, mermas, entre otros; manteniendo como fortaleza nuestro sistema de atención personalizado y permanente con todos nuestros clientes.
                                     </div>
     
                                     <div class="text NosotrosFSclass" style="color: white;">
@@ -334,41 +334,15 @@
                                 </div>
 
                                 <div class="accordion-box">
-
-
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
-                                        <div class="acc-btn">
-                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Aprendizaje</b></div>
-                                          
-                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalImplementacion">
-                                                <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
-                                            </div>
-                                        </div>  
-
-                                        <div class="acc-content collapsed">
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Seminarios y cursos “en el sitio” y “vía remota”, personalizados y dinámicos, logrando capacitar a un mayor número de asistentes.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Contenidos técnicos actualizados acorde a nuevos requisitos legales y reglamentarios, incorporando ciencia, tecnología y otros recursos, los cuales se adaptan al personal objetivo (nivel técnico, nivel operativo). </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Certificados de aprobación o participación, de acuerdo con el rendimiento de cada asistente. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> En el caso de seminarios y cursos realizados “vía remota” se emplea una plataforma amigable y fácil de usar, que requiere habilitar cámara y audio en todo momento para mejorar la interacción tutor – asistente.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Como valor agregado le brindamos el uso de una plataforma virtual para registro y seguimiento “on-line” de los seminarios y cursos contratados. </p>
-
-                                        </div>
-                                    </div>
-
-
-                                    <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
-                                        <div class="acc-btn">
+                                        <div class="acc-btn active">
                                             <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Implementación / Actualización (IM) de Sistemas y Normas  sujetas a Certificación</b></div>
                                           
                                             <div class="toggle-icon" data-toggle="modal" data-target="#ModalImplementacion">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
                                         </div>  
-                                        <div class="acc-content">
+                                        <div class="acc-content collapsed">
                                             <p><b style="color:#044372; font-weight: bold;">Diagnóstico:</b> Determinar las condiciones iniciales y planificar el proceso de documentación e implementación.<span  style="color: #EE8700;" class="plus fa fa-plus"  data-toggle="modal" data-target="#ModalDiagnostico"></span></p>
 
                                             <p><b style="color:#044372; font-weight: bold;">Documentación e Implementación: </b>Diseñar un sistema acorde a los requisitos de la Norma de interés. <span style="color: #EE8700;" class="plus fa fa-plus" data-toggle="modal" data-target="#ModalDocumentacion"></span></p>
@@ -381,85 +355,41 @@
 
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
-                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b>	Programa de control de proveedores (cadena de suministro)</b></div>
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Diseño y Desarrollo de Programa de Control de la Cadena de Suministro</b></div>
                                             <div class="toggle-icon" data-toggle="modal" data-target="#ModalSuministro">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
-                                        </div>
-
-                                        <div class="acc-content">
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Gestión del programa de auditorias lo cual involucra el diseño, programación, ejecución y mejora del programa de acuerdo con los requisitos legales, reglamentarios y del cliente.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Elaboración y actualización de las herramientas (listas de verificación) y del sistema de calificación. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Seguimiento de acciones correctivas y retroalimentación a los proveedores. </p>
-                                                <br>
-                                            <p><i class="fa fa-caret-right" style="color: #EE8700;"> </i>	Aplicación de indicadores de gestión y evaluación de tendencias. .</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>	Reuniones periódicas con el cliente para revisión de resultados y mejoras del programa. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Asignación de auditores competentes de acuerdo con el sector de la cadena alimentaria: <br> 
-                                                <ul class="ml-3">
-                                                    <li style="color:black;">- Producción y procesamiento primario (productos agroindustriales, hidrobiológicos) </li>
-                                                    <li style="color:black;">- Fabricación de alimentos y bebidas de consumo humano, piensos, envases y otros productos relacionados.</li>
-                                                    <li style="color:black;">- Elaboración y expendio (panadería, restaurantes y servicios afines).</li>
-                                                    <li style="color:black;">- Almacenamiento y distribución (incluye transporte).</li>
-                                                    <li style="color:black;">- Venta al por mayor y menor (autoservicios, mercados).</li>
-                                                    <li style="color:black;">- Comercialización de productos (agentes e intermediarios).</li>
-                                                </ul> </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>	Como valor agregado, le brindamos el uso de una plataforma virtual para visualización “on line” de los resultados del programa por las partes interesadas. Nuestra plataforma es versátil y se actualiza para mayor utilidad y beneficio del cliente. </p>
-
                                         </div>
                                        
                                     </div>
 
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
-                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Estudios de Mermas y Desmedros</b></div>
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Elaboración de Estudios de Mermas y/o Desmedros</b></div>
                                             <div class="toggle-icon" data-toggle="modal" data-target="#ModalDesmedros">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
                                         </div>
-
-                                        <div class="acc-content">
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Planificación del estudio y determinación del plan de muestreo. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Realización de trabajo de campo para validación de las mermas.  </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Procesamiento de datos aplicando herramientas estadísticas.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>	Obtención de los porcentajes de mermas y desmedros, válidos para fines contables y control de procesos. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>	Elaboración del informe técnico por un profesional competente </p>
-                                                <br>
-                                           
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Como valor agregado le brindamos asistencia técnica para la absolución de consultas formuladas por la autoridad tributaria u otras partes interesadas. </p>
-
-                                        </div>
-
-                                        
+                                       
                                     </div>
 
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
-                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Elaboración del Plan de Defensa Alimentaria</b></div>
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Elaboración del Diseño Sanitario de Planta (lay-out)</b></div>
+                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalSanitario">
+                                                <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+
+                                    <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
+                                        <div class="acc-btn">
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Elaboración del Plan de Defensa Alimentaria</b></div>
                                             <div class="toggle-icon" data-toggle="modal" data-target="#ModalDefensa">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
                                         </div>
-
-                                        <div class="acc-content">
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Diseño del Plan de Defensa Alimentaria de acuerdo con los requisitos legales y reglamentarios (FDA, GFSI) que involucre las materias primas (incluye envases) y los procesos productivos.  </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Determinación de una metodología específica para la evaluación de amenazas o evaluación de vulnerabilidades, según sea el caso, basada en recursos internacionales. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Interacción con el personal relevante del sitio para la recopilación de información relacionada a los elementos fundamentales evaluados.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Capacitación al equipo de defensa alimentaria. </p>
-                                                
-                                        </div>
-
                                        
                                     </div>
 
@@ -469,19 +399,6 @@
                                             <div class="toggle-icon" data-toggle="modal" data-target="#ModalFraude">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
-                                        </div>
-
-                                        <div class="acc-content">
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Diseño del Plan de Mitigación de Fraude Alimentario de acuerdo con los requisitos legales y reglamentarios (FDA, GFSI) que abarque las materias primas (incluye envases) y procesos.  </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Determinación de una metodología específica para la evaluación de vulnerabilidades basada en recursos internacionales. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i> Uso de base de datos confiables para la investigación de casos históricos de fraude.</p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Interacción con el personal relevante del sitio para la recopilación de información relacionada a los factores de riesgo evaluados. </p>
-                                                <br>
-                                            <p class="pl-2"><i class="fa fa-caret-right" style="color: #EE8700;"> </i>Capacitación al equipo responsable de la gestión del plan.  </p>
-                                                
                                         </div>
                                        
                                     </div>
@@ -538,11 +455,11 @@
                                     <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                     -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b></p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Medicamentos, Insumos y Drogas (DIGEMID) </b>Aqui va Texto</p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Servicio Nacional de Sanidad Agraria – SENASA </b></p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Servicio Nacional de Sanidad Agraria – SENASA </b>Aqui va Texto</p>
 
-                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b></p>
+                                    <p><b style="color:#044372; font-weight: bold;" >Ante el Organismo Nacional de Sanidad Pesquera –  SANIPES </b>Aqui va Texto</p>
                                 </div>
 
                             </div>
@@ -703,13 +620,14 @@
                                     </div>
                                     <div class="accordion animated out SociosFSclass" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
-                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Venta de Equipos de Recolección y Software de Análisis</b></div>
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i> <b>Capacitación in-house o virtual en el Uso de Equipos de Recolección y Softwares de Análisis</b></div>
                                             <div class="toggle-icon">
                                                 <span class="plus fa fa-plus"></span><span class="minus  fa fa-minus"></span>
                                             </div>
                                         </div>
                                         <div class="acc-content">
-                                            <p>Somos representantes oficiales en Latinoamerica para la venta del equipo recolector de datos CALPLex y del software más completo de recolección y evaluación CALSoft 6 de TechniCAL Inc. (EE.UU.).  Tanto el equipo como el software son ampliamente utilizados a nivel mundial y aceptados por la USFDA.</p>
+                                            <p style="font-size:15px;">Como socios de TechniCAL Inc. (EE.UU.) manejamos sus equipos (CALPlex®) y softwares para el análisis y procesamiento de datos (CALSoft5® y CALSoft6®), y le brindamos a la industria capacitación personalizada bajo estas dos modalidades para que aproveche todas las funcionalidades de su equipo y software.</p>
+                                            <small style="color:gray;">NOTA: No somos sus representantes de ventas.  Los equipos y softwares puede adquirirlos directamente en el sitio web de TechniCAL Inc.</small>
                                         </div>
                                     </div>
                                    
