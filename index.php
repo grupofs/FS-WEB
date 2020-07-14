@@ -334,6 +334,26 @@
                                 </div>
 
                                 <div class="accordion-box">
+
+                                    <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
+                                        <div class="acc-btn">
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Aprendizaje</b></div>
+                                          
+                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalAprendizaje">
+                                              
+                                                <span class="plus fa fa-plus"></span> <span class="minus  fa fa-minus"></span>
+                                                
+                                            </div>
+                                        </div>  
+
+                                        <div class="acc-content ">
+
+                                            <p class="text-center"><b style="color:black; font-weight: bold;">Solicite nuestro catálogo de seminarios y cursos.</b></p>
+
+                                        </div>
+                                       
+                                    </div>
+
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn active">
                                             <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Implementación / Actualización (IM) de Sistemas y Normas  sujetas a Certificación</b></div>
@@ -1122,7 +1142,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e2.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Diagnostico.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1140,7 +1160,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e3.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Documentacion.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1158,7 +1178,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e4.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Auditoria.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1176,7 +1196,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e5.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/aprendizaje.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1194,7 +1214,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e6.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Suministro.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1212,7 +1232,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e7.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Mermas.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1248,7 +1268,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e9.jpg" class="img-fluid" alt="">
+                            <img src="images/FS/servicios/Defensa.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -1267,7 +1287,7 @@
                         </button>
                     </div>
                     <div class="">
-                        <img src="images/FS/servicios/e10.jpg" class="img-fluid" alt="">
+                        <img src="images/FS/servicios/Fraude.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
