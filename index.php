@@ -471,7 +471,7 @@
                                     </div>
                                 </div>
 
-                                <div class="acc-content collapsed">
+                                <div class="pl-5 acc-content collapsed">
                                     <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                     -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
