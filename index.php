@@ -35,12 +35,12 @@
         <div class="container">
             <div class="header-content">
                 <div class="row">
-                    <div class="col-lg-3 col-md-12 col-sm-12 logo-column">
+                    <div class="col-lg-3 col-md-12 col-12 logo-column">
                         <figure class="logo-box">
                             <a href="#"><img src="images/FS/logoFS.png" alt=""></a>
                         </figure>
                     </div>
-                    <div class="col-lg-9 col-md-12 col-sm-12 menu-column">
+                    <div class="col-lg-9 col-md-12 col-12 menu-column">
                         <div class="menu-area">
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
@@ -93,12 +93,12 @@
             <div class="container">
                 <div class="header-content">
                     <div class="row">
-                        <div class="col-lg-3 col-md-12 col-sm-12 logo-column">
+                        <div class="col-lg-3 col-md-12 col-12 logo-column">
                             <figure class="small-logo-box img-responsive">
                                 <a href="#"><img src="images/FS/logoFS.png" alt=""></a>
                             </figure>
                         </div>
-                        <div class="col-lg-9 col-md-12 col-sm-12 menu-column">
+                        <div class="col-lg-9 col-md-12 col-12 menu-column">
                             <div class="menu-area">
                                 <nav class="main-menu navbar-expand-lg">
                                     <div class="navbar-header">
@@ -166,7 +166,7 @@
                 </li>
 
                 <li class="slider-wrapper">
-                    <div class="image"><img src="images/FS/slider2.jpg" alt=""></div>
+                    <div class="image "><img src="images/FS/slider2.jpg" alt=""></div>
                     <div class="slider-caption">
                         <div class="container">
                          
@@ -176,7 +176,7 @@
                 </li>
 
                 <li class="slider-wrapper">
-                    <div class="image"><img src="images/FS/slider3.png" alt=""></div>
+                    <div class="image "><img src="images/FS/slider3.png" alt=""></div>
                     <div class="slider-caption">
                         <div class="container">
                          
@@ -206,13 +206,13 @@
             </div>
             
             <div class="tab-details-content">
-                <div class="tab-content" id="details">
-                    <section class="testimonial-section sec-pad centred" style="background-image: url(images/FS/grupo-fs-2quienes-somos.jpg);">
+                <div class="tab-content" id="details"> 
+                    <section class="testimonial-section sec-pad centred lazy" data-original="images/FS/grupo-fs-2quienes-somos.jpg" style="background-image: url(images/fancybox/blank.gif);">
                         <div class="row">
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="col-lg-5 col-md-12 col-12">
                               
                             </div>
-                            <div id="quienes_somos" class="col-lg-7 col-md-12 col-sm-12 ">
+                            <div id="quienes_somos" class="col-lg-7 col-md-12 col-12 ">
                                 <div class="content-box">
                                     <h2>¿Quienes Somos?</h2>
                                     <br>
@@ -236,10 +236,10 @@
                 </div>
 
                 <div class="tab-content" id="review">
-                    <section class="testimonial-section sec-pad centred" style="background-image: url(images/FS/grupofs-3mision.jpg);">
+                    <section class="testimonial-section sec-pad centred "  style="background-image: url(images/FS/grupofs-3mision.jpg);">
                         <div class="row">
                             
-                            <div class="col-lg-12 col-md-12 col-sm-12 ">
+                            <div class="col-lg-12 col-md-12 col-12 ">
                                 <div class="content-box">
                                     <h2 class="animated fadeIn">Nuestra Misión</h2><br>
                                     <div class="text animated fadeIn" style="color: white;">
@@ -273,13 +273,13 @@
 
                 <div class="tab-content" id="review1">
 
-                    <section class="testimonial-section sec-pad centred" style="background-image: url(images/FS/grupofs-4vision.jpg);">
+                    <section class="testimonial-section sec-pad centred" style="background-image: url(images/FS/grupofs-4vision.jpg);" >
                         <div class="row">
 
-                            <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="col-lg-5 col-md-12 col-12">
                             </div>
 
-                            <div class="col-lg-7 col-md-12 col-sm-12 animated fadeIn">
+                            <div class="col-lg-7 col-md-12 col-12 animated fadeIn">
 
                                 <div class="content-box ">
                                     <h2>Nuestra Visión</h2><br>
@@ -307,7 +307,7 @@
     <section class="sec-pad-espacio centred ServiciosFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
 
-    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="AreaTecnica" style="background-image: url(images/FS/grupofs-6tecnica.jpg);"> 
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass lazy" id="AreaTecnica" data-original="images/FS/grupofs-6tecnica.jpg" style="background-image: url(images/fancybox/blank.gif);"> 
        <div class="container"> 
         <div class="sortable-masonry mixed-gallery-section">
             <ul class="filter-tabs filter-btns post-filter centred">
@@ -316,12 +316,12 @@
 
 
             <div class="row items-container clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 default-portfolio-item masonry-item all areatecnica">
+                <div class="col-lg-12 col-md-12 col-12 default-portfolio-item masonry-item all areatecnica">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             <figure class="img-box"><img src="" alt=""></figure>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                              
                             <div class="float-right col-md-8">
                                 <img src="images/FS/AreaTecni.png" alt="" width="240px" height="80px">
@@ -438,7 +438,7 @@
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
     
 
-    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="AsuntosRegulatorios" style="background-image: url(images/FS/grupofs-7regulatorios.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass lazy" id="AsuntosRegulatorios" data-original="images/FS/grupofs-7regulatorios.jpg" style="background-image: url(images/fancybox/blank.gif);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
@@ -447,9 +447,9 @@
  
  
             <div class="row items-container clearfix">
-                <div class="col-lg-12 col-md-12 col-sm-12 default-portfolio-item masonry-item all areatecnica">
+                <div class="col-lg-12 col-md-12 col-12 default-portfolio-item masonry-item all areatecnica">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                         <div class="float-left">
                             <a href="images/FS/Clientes/brochure_Grupo_FS_AARR.pdf" target="_blank" id="linkAR">
                             <img src="images/FS/AsuntosReg.png" alt="" width="240px" height="80px" title="Descargar Archivo">
@@ -471,7 +471,7 @@
                                     </div>
                                 </div>
 
-                                <div class="pl-5 acc-content collapsed">
+                                <div class="pl-5  acc-content collapsed">
                                     <p><b style="color:#044372; font-weight: bold;" >Ante la Dirección General de Salud Ambiental (DIGESA)</b><br>- Registro Sanitario de Alimentos y Bebidas. <br>-Autorización  Sanitaria  para  la  Fabricación,  Importación  y  Comercialización de Juguetes y/o Útiles de Escritorio. <br>
                                     -Registro  Sanitario  de  Desinfectantes  y  Plaguicidas;  asi  como  Productos Químicos de Uso Industrial</p>
 
@@ -546,7 +546,7 @@
 
                         </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-12">
                             
                             <figure class="img-box"><img src="" alt=""></figure>
 
@@ -564,7 +564,7 @@
     
     <section class="sec-pad-espacio centred" style="background-color: white;"></section>
 
-    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass" id="ProcesosTermicos" style="background-image: url(images/FS/grupofs-8termicos.jpg);">
+    <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass lazy" id="ProcesosTermicos" data-original="images/FS/grupofs-8termicos.jpg" style="background-image: url(images/fancybox/blank.gif);">
         <div class="container"> 
          <div class="sortable-masonry mixed-gallery-section">
              <ul class="filter-tabs filter-btns post-filter centred">
@@ -572,12 +572,12 @@
              </ul>
  
              <div class="row items-container clearfix">
-                 <div class="col-lg-12 col-md-12 col-sm-12 default-portfolio-item masonry-item all areatecnica">
+                 <div class="col-lg-12 col-md-12 col-12 default-portfolio-item masonry-item all areatecnica">
                      <div class="row">
-                         <div class="col-lg-6 col-md-12 col-sm-12">
+                         <div class="col-lg-6 col-md-12 col-12">
                              <figure class="img-box"><img src="" alt=""></figure>
                          </div>
-                         <div class="col-lg-6 col-md-12 col-sm-12">
+                         <div class="col-lg-6 col-md-12 col-12">
                               
                             <div class="float-right">
                                  <img src="images/FS/ProcesosTerm.png" alt="" width="240px" height="80px">
@@ -667,7 +667,7 @@
     <section class="sec-pad-espacio centred SociosFSclass" style="background-color: white;" id="ServiciosFS"></section>
 
     <!-- socios -->
-    <section class="testimonial-section sec-pad centred SociosFSclass" id="SociosFS" style="background-image: url(images/FS/grupofs-10socios.jpg);">
+    <section class="testimonial-section sec-pad centred SociosFSclass lazy" id="SociosFS" data-original="images/FS/grupofs-10socios.jpg" style="background-image: url(images/fancybox/blank.gif);">
         <div class="container">
             <h1 class="sec-title text-center" style="color: #EE8700;">Socios</h1>
                      <br>
@@ -677,18 +677,18 @@
                     <!-- Espaciado -->
                 </div>
                 
-                <div id="socios_animacion" class="col-lg-7 float-right col-sm-12">
+                <div id="socios_animacion" class="col-lg-7 float-right col-12">
                    
                     <div class="row ">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio00.png" alt="" data-toggle="modal" data-target="#Technical">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio01.png" alt="" data-toggle="modal" data-target="#Safety">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio02.png" alt="" data-toggle="modal" data-target="#Agriconsult">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio00.png" alt="" data-toggle="modal" data-target="#Technical">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio01.png" alt="" data-toggle="modal" data-target="#Safety">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio02.png" alt="" data-toggle="modal" data-target="#Agriconsult">
                     </div>
                          <br>
                     <div class="row">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio03.png" alt="" data-toggle="modal" data-target="#Spinak">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#ifpts">
-                        <img id="SociosIMG" src="images/FS/Clientes/socio05.png" alt="" data-toggle="modal" data-target="#fsc">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio03.png" alt="" data-toggle="modal" data-target="#Spinak">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#ifpts">
+                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio05.png" alt="" data-toggle="modal" data-target="#fsc">
                     </div>
                     
 
@@ -702,7 +702,7 @@
     <section class="sec-pad-espacio centred ClientesFSclass" style="background-color: white;" id="ClientesFS"></section>
 
       <!-- Clientes -->
-    <section class="testimonial-section sec-pad centred ClientesFSclass" id="tabClientes" style="background-image: url(images/FS/grupofs-9clientes.jpg);">
+    <section class="testimonial-section sec-pad centred ClientesFSclass lazy" id="tabClientes" data-original="images/FS/grupofs-9clientes.jpg" style="background-image: url(images/fancybox/blank.gif);">
        
         <div class="destin-details"  id="tabClientes" style="padding-top: 0%;">
             <div class="">
@@ -723,62 +723,62 @@
                         
                             <div class="row">
                                 <div class="container">
-                                    <img src="images/FS/Clientes/clie-at/agricolandrea.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/agroworld.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/ajinomoto.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/alicorp.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/andina.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/anita.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/apropal.jpg" alt="" style="width: 8%;" class="rounded">
-                                    <img src="images/FS/Clientes/clie-at/avinka.jpg" alt="" style="width: 8%;" class="rounded">
+                                    <img data-original="images/FS/Clientes/clie-at/agricolandrea.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/agroworld.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/ajinomoto.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/alicorp.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/andina.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/anita.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/apropal.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                    <img data-original="images/FS/Clientes/clie-at/avinka.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                 </div> 
                             </div> 
                             <br> 
                             <div class="row">
                                 <div class="container">
-                                        <img src="images/FS/Clientes/clie-at/bimbo.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/biocon.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/cencosud.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/chrhansen.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/cogorno.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/elsol.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/emusa.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/eurogerm.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-at/bimbo.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/biocon.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/cencosud.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/chrhansen.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/cogorno.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/elsol.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/emusa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/eurogerm.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                 </div> 
                                 </div> 
                             <br>
                                 <div class="row">
                                 <div class="container">
-                                        <img src="images/FS/Clientes/clie-at/global.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/gloria.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/incasur.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/inkcrops.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/lopesa.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/makro.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/metalpren.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/nacionalchocolates.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-at/global.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/gloria.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/incasur.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/inkcrops.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/lopesa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/makro.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/metalpren.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/nacionalchocolates.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                 </div> 
                                 </div> 
                             <br>
                                 <div class="row">
                                 <div class="container">
-                                        <img src="images/FS/Clientes/clie-at/nobex.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/pepsico.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/piscoporton.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/redondos.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/resinplast.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/saga.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/sanfernando.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-at/sinea.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-at/nobex.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/piscoporton.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/redondos.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/resinplast.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/saga.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/sanfernando.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-at/sinea.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                 </div> 
                                 </div> 
                             <br>    
                                 <div class="row">
                                     <div class="container">
-                                            <img src="images/FS/Clientes/clie-at/supesa.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-at/tasa.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-at/tottus.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-at/triunfo.jpg" alt="" style="width: 8%;" class="rounded">
+                                            <img data-original="images/FS/Clientes/clie-at/supesa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-at/tasa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-at/tottus.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-at/triunfo.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                 </div> 
 
@@ -788,27 +788,26 @@
                         
                                 <div class="row">
                                     <div class="container">
-                                            <img src="images/FS/Clientes/clie-ar/bobbibrown.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/carestream.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/cencosud.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/colgate.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/delosi.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/essence.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/esteelauder.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/nestle.jpg" alt="" style="width: 8%;" class="rounded">
+                                            <img data-original="images/FS/Clientes/clie-ar/bobbibrown.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/carestream.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/cencosud.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/colgate.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/delosi.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/essence.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/esteelauder.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/nestle.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                     </div> 
                                     <br> 
                                     <div class="row">
                                         <div class="container">
-                                            <img src="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded">
-                                            <img src="images/FS/Clientes/clie-ar/" alt="" style="width: 8%;" class="rounded">
+                                            <img data-original="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                         </div> 
                                     </div> 
                                    
@@ -818,60 +817,60 @@
     
                             <div class="row">
                                 <div class="container">
-                                        <img src="images/FS/Clientes/clie-pt/agrodely.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/aib.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/alicorp.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/austral.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/bhg.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/calera.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/colcafe.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/conalimentos.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-pt/agrodely.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/aib.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/alicorp.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/austral.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/bhg.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/calera.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/colcafe.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/conalimentos.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                 </div> 
                                 </div> 
                                 <br> 
                                 <div class="row">
                                     <div class="container">
-                                        <img src="images/FS/Clientes/clie-pt/costena.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/ecosac.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/envasur.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/gandules.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/grupogloria.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/hayduk.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/herdez.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/ile.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-pt/costena.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/ecosac.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/envasur.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/gandules.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/grupogloria.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/hayduk.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/herdez.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/ile.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img src="images/FS/Clientes/clie-pt/jaremar.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/jumex.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/lindley.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/maravilla.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/multifood.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/nutrium.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/perufood.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/puertopaci.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-pt/jaremar.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/jumex.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/lindley.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/maravilla.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/multifood.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/nutrium.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/perufood.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/puertopaci.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img src="images/FS/Clientes/clie-pt/quicornac.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/salica.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/sanfernando.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/seafman.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/seafrost.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/tresa.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/usafish.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/viru.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-pt/quicornac.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/salica.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/sanfernando.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/seafman.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/seafrost.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/tresa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/usafish.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/viru.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img src="images/FS/Clientes/clie-pt/wawa.jpg" alt="" style="width: 8%;" class="rounded">
-                                        <img src="images/FS/Clientes/clie-pt/zenu.jpg" alt="" style="width: 8%;" class="rounded">
+                                        <img data-original="images/FS/Clientes/clie-pt/wawa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/zenu.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
                                     </div> 
                                 </div> 
 
@@ -887,53 +886,52 @@
     <section class="sec-pad-espacio centred " style="background-color: white;" ></section>
    
     <!-- TESTIMONIOS DE CLIENTES -->
-    <section class="testimonial-section sec-pad centred ClientesFSclass"  style="background-image: url(images/FS/grupofs-5-testimonios.jpg);">
+    <section class="testimonial-section sec-pad centred ClientesFSclass lazy" data-original="images/FS/grupofs-5-testimonios.jpg" style="background-image: url(images/fancybox/blank.gif);" >
         <div class="container">
             <h2 class="sec-title">Testimonios de Nuestros Clientes</h2>
             <div class="title-text"></div>
             <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2">
+                <div class="col-lg-8 col-md-12 col-12 offset-lg-2">
                     <div class="testimonial-slider">
-                        <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <img class="col-lg-12 col-sm-12 col-md-12 float-right" id="TestimonioIMG" src="images/FS/Clientes/Testimonio.png" alt="">
-                                
-                                <h4 class="float-right">DELTAGEN DEL PERÚ S.A.</h4>
+                        <div class="testimonial-content row ">
+                            <div class="author-info col-md-6 mx-auto">
+                                <img class="col-lg-12 col-12 col-md-12  mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/Testimonio.png" alt="">
+
+                                <h4 class="text-center">DELTAGEN DEL PERÚ S.A.</h4>
                             </div>
-                            <div class="text col-md-6 EventosFSclass">
-                                Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría".<br>"Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
+                            <div class="text col-md-6 EventosFSclass my-auto">
+                               "Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría.<br>Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
                             </div>
                         </div>
                         <div class="testimonial-content row">
                             <div class="author-info col-md-6">
-                                <img class="col-lg-12 col-sm-12 col-md-12 float-right" id="TestimonioIMG" src="images/FS/Clientes/palmyra.png" alt="">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/palmyra.png" alt="">
                                 
-                                <h4 class="float-right">PALMYRA DISTRIBUCIONES S.A.C.</h4>
+                                <h4 class="text-center">PALMYRA DISTRIBUCIONES S.A.C.</h4>
                             </div>
-                            <div class="text col-md-6 EventosFSclass">
-                                <br><br>
+                            <div class="text col-md-6 EventosFSclass my-auto">
                                 "Agradecemos el apoyo y comprensión para la gestión de RS".
                             </div>
                         </div>
                         <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <img class="col-lg-12 col-sm-12 col-md-12 float-right" id="TestimonioIMG" src="images/FS/Clientes/Griff.png" alt="">
+                            <div class="author-info col-md-6 mx-auto">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/Griff.png" alt="">
                                 
-                                <h4 class="float-right">GRIFFITH FOOD S.A.S.</h4>
+                                <h4 class="text-center">GRIFFITH FOOD S.A.S.</h4>
                             </div>
-                            <div class="text col-md-6 EventosFSclass">
+                            <div class="text my-auto col-md-6 EventosFSclass">
                                 "Agradecemos el profesionalismo, cumplimiento, amabilidad, disponibilidad y efectividad en las gestiones que nos han apoyado".
                             </div>
-                        </div>
+                        </div> 
 
                          <div class="testimonial-content row">
-                            <div class="author-info col-md-6">
-                                <img class="col-lg-12 col-sm-12 col-md-12 float-right" id="TestimonioIMG" src="images/FS/Clientes/laCosteña.png" alt="">
+                            <div class="author-info col-md-6 mx-auto">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/laCosteña.png" alt="">
                                 
-                                <h4 class="float-right">CONSERVAS LA COSTEÑAS S.A.</h4>
+                                <h4 class="text-center">CONSERVAS LA COSTEÑAS S.A.</h4>
                             </div>
-                            <div class="text col-md-6 EventosFSclass">
-                                <br><br>
+                            <div class="text col-md-6 EventosFSclass my-auto">
+                                
                                 "Buen servicio y apoyo en dudas y en las consultas". 
                             </div>
                         </div>
@@ -949,7 +947,7 @@
     
 
     <!-- Eventos -->
-    <section class="testimonial-section sec-pad centred EventosFSclass" id="EventosFS" style="background-image: url(images/FS/grupofs-11eventos.jpg)">
+    <section class="testimonial-section sec-pad centred EventosFSclass lazy" id="EventosFS" data-original="images/FS/grupofs-11eventos.jpg" style="background-image: url(images/fancybox/blank.gif);" >
         <div class="container">
             <h1 class="sec-title">Eventos</h1>
             <div class="row">
@@ -1027,31 +1025,31 @@
 
     <!-- CONTACTO -->
    
-    <section class="contact-section sec-pad testimonial-section-service ContactoFSclass" id="ContactoFS"  style="background-image: url(images/FS/grupofs-12contacto.jpg);">
+    <section class="contact-section sec-pad testimonial-section-service ContactoFSclass lazy" id="ContactoFS" data-original="images/FS/grupofs-12contacto.jpg" style="background-image: url(images/fancybox/blank.gif);"  >
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-10 col-sm-10 contact-column">
+                <div class="col-lg-5 col-md-10 col-10 contact-column">
                     <div class="contact-form-area">
 
                         <div class="text-left col-md-8">
-                            <img src="images/FS/Contactenos.png" alt="" width="240px" height="80px">
+                            <img data-original="images/FS/Contactenos.png" class="img-fluid lazy" width="240px" height="80px">
                         </div>
                         <br>
                         <div class="text">Por favor, complete el formulario para mandarnos un mensaje.</div>
 
                         <form id="contact-form" name="contact_form" class="default-form">
                             <div class="row">
-                                <div class="form-group col-lg-6 col-md-46col-sm-12 ">
+                                <div class="form-group col-lg-6 col-md-46col-12 ">
                                     <input type="text" name="form_name" class="form_name" placeholder="Nombre Completo" required="">
                                 </div>
-                                <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <div class="form-group col-lg-6 col-md-6 col-12">
                                     <input type="email" name="form_email" class="form_email" placeholder="Correo Electronico*" required="">
                                 </div>
                                
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="form-group col-lg-12 col-md-12 col-12">
                                     <textarea placeholder="Escribir Mensaje" class="form_message" name="form_message" required=""></textarea>
                                 </div>
-                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                <div class="form-group col-lg-12 col-md-12 col-12">
                                     <button type="submit" id="btnEnviar" class="theme-btn" data-loading-text="Procesando...">Enviar</button>
                                 </div>
                             </div>
@@ -1059,7 +1057,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12 contact-column">
+                <div class="col-lg-6 col-md-12 col-12 contact-column">
                     <div class="google-map-area">
                         <div class="google-map" id="contact-google-map" data-map-lat="-12.112654" data-map-lng="-76.989284" data-icon-path="images/resource/map-marker.png" data-map-title="Av. El Pinar 110 - Santiago de Surco" data-map-zoom="10" data-markers="{
                                 &quot;marker-1&quot;: [-12.112654, -76.989284, &quot;<h4>Grupo FS</h4><p>Av. El Pinar 110</p>&quot;,&quot;images/resource/map-marker.png&quot;]
@@ -1103,7 +1101,7 @@
 
 
     <!-- footer-bottom -->
-    <div class="footer-bottom centred">
+    <div class="footer-bottom centred" >
         <div class="container">
             <div class="copyright">
 
@@ -1446,11 +1444,15 @@
 <script src="js/map-helper.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/contacto.js"></script>
-
+<script src="js/jquery.lazyload.js"></script>
 <!-- main-js -->
 <script src="js/script.js"></script>
 
-
+<script>
+    $(".lazy").lazyload({
+            effect : "fadeIn"
+    });
+</script>
 </body><!-- End of .page_wrapper -->
 
 </html>
