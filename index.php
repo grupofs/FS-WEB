@@ -1466,7 +1466,7 @@
 
                             <thead>
 
-                                <th style="width: 90%;" id="thTable">Nombre del Curso</th>
+                                <th style="width: 90%;" id="thTable" class="text-center">Nombre del Curso</th>
 
                                 <th style="width: 15%;" id="thTable">Video</th>
 
