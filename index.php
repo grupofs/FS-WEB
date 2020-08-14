@@ -332,8 +332,24 @@
                                 <div class="text">
                                     <br><br><br><br>
                                 </div>
+                                
 
                                 <div class="accordion-box">
+
+
+                                    <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
+                                        <div class="acc-btn">
+                                            <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Cursos y/o Webinar's Dictados Online</b></div>
+                                          
+                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalEventos">
+                                              
+                                                <span class="plus fa fa-plus"></span> <span class="minus  fa fa-minus"></span>
+                                                
+                                            </div>
+                                        </div>  
+                                       
+                                    </div>
+
 
                                     <div class="accordion animated out" data-delay="0" data-animation="fadeInUp">
                                         <div class="acc-btn">
@@ -348,7 +364,11 @@
 
                                         <div class="acc-content ">
 
-                                            <p class="text-center"><b style="color:black; font-weight: bold;">Solicite nuestro catálogo de seminarios y cursos.</b></p>
+                                            <p class="text-center">
+                                                <b style="color:black; font-weight: bold;">
+                                                    <a href="images/FS/CatalogoDeCursos.pdf" target="_blank">Solicite nuestro catálogo de seminarios y cursos.</a>
+                                                </b>
+                                            </p>
 
                                         </div>
                                        
@@ -677,18 +697,18 @@
                     <!-- Espaciado -->
                 </div>
                 
-                <div id="socios_animacion" class="col-lg-7 float-right col-12">
+                <div id="socios_animacion" class="col-lg-7 float-lg-right col-12">
                    
-                    <div class="row ">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio00.png" alt="" data-toggle="modal" data-target="#Technical">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio01.png" alt="" data-toggle="modal" data-target="#Safety">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio02.png" alt="" data-toggle="modal" data-target="#Agriconsult">
+                    <div class="row">
+                        <img id="SociosIMG" class="lazy mx-auto" data-original="images/FS/Clientes/socio00.png" alt="" data-toggle="modal" data-target="#Technical">
+                        <img id="SociosIMG" class="lazy mx-auto" data-original="images/FS/Clientes/socio01.png" alt="" data-toggle="modal" data-target="#Safety">
+                        <img id="SociosIMG" class="lazy mx-auto" data-original="images/FS/Clientes/socio02.png" alt="" data-toggle="modal" data-target="#Agriconsult">
                     </div>
                          <br>
                     <div class="row">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio03.png" alt="" data-toggle="modal" data-target="#Spinak">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#ifpts">
-                        <img id="SociosIMG" class="lazy" data-original="images/FS/Clientes/socio05.png" alt="" data-toggle="modal" data-target="#fsc">
+                        <img id="SociosIMG" class="lazy  mx-auto" data-original="images/FS/Clientes/socio03.png" alt="" data-toggle="modal" data-target="#Spinak">
+                        <img id="SociosIMG" class="lazy  mx-auto" data-original="images/FS/Clientes/socio04.png" alt="" data-toggle="modal" data-target="#ifpts">
+                        <img id="SociosIMG" class="lazy  mx-auto" data-original="images/FS/Clientes/socio05.png" alt="" data-toggle="modal" data-target="#fsc">
                     </div>
                     
 
@@ -709,11 +729,11 @@
                 <h1 class="sec-title centred">CLIENTES</h1>
                 <br>
                 <!-- <div class="title-text centred">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,<br />sed quia consequuntur magni dolores eos qui ratione</div> -->
-                <div class="custom-tab-title-one centred" >
-                    <ul class="tab-title clearfix">
-                        <li data-tab-name="Area" id="btnClientes" class="active">Área Técnica</li>
-                        <li data-tab-name="Asuntos" id="btnRegulatorio"> Asuntos Regulatorios</li>
-                        <li data-tab-name="Procesos" id="btnTermicos"> Procesos Térmicos</li>
+                <div class="custom-tab-title-one centred " >
+                    <ul class="tab-title clearfix"  >
+                        <li  data-tab-name="Area" id="btnClientes" class="active">Área Técnica</li>
+                        <li   data-tab-name="Asuntos" id="btnRegulatorio">Asuntos Regulatorios</li>
+                        <li   data-tab-name="Procesos" id="btnTermicos"> Procesos Térmicos</li>
                     </ul>
                 </div>
                 
@@ -788,26 +808,26 @@
                         
                                 <div class="row">
                                     <div class="container">
-                                            <img data-original="images/FS/Clientes/clie-ar/bobbibrown.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/carestream.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/cencosud.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/colgate.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/delosi.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/essence.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/esteelauder.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/nestle.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/bobbibrown.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/carestream.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/cencosud.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/colgate.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/delosi.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/essence.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/esteelauder.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/nestle.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
                                     </div> 
                                     <br> 
                                     <div class="row">
                                         <div class="container">
-                                            <img data-original="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                            <img data-original="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                         </div> 
                                     </div> 
                                    
@@ -817,60 +837,60 @@
     
                             <div class="row">
                                 <div class="container">
-                                        <img data-original="images/FS/Clientes/clie-pt/agrodely.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/aib.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/alicorp.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/austral.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/bhg.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/calera.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/colcafe.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/conalimentos.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/agrodely.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/aib.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/alicorp.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/austral.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/bhg.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/calera.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/colcafe.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/conalimentos.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                 </div> 
                                 </div> 
                                 <br> 
                                 <div class="row">
                                     <div class="container">
-                                        <img data-original="images/FS/Clientes/clie-pt/costena.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/ecosac.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/envasur.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/gandules.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/grupogloria.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/hayduk.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/herdez.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/ile.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/costena.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/ecosac.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/envasur.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/gandules.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/grupogloria.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/hayduk.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/herdez.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/ile.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img data-original="images/FS/Clientes/clie-pt/jaremar.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/jumex.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/lindley.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/maravilla.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/multifood.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/nutrium.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/perufood.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/puertopaci.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/jaremar.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/jumex.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/lindley.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/maravilla.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/multifood.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/nutrium.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/perufood.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/puertopaci.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img data-original="images/FS/Clientes/clie-pt/quicornac.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/salica.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/sanfernando.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/seafman.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/seafrost.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/tresa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/usafish.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/viru.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/quicornac.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/salica.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/sanfernando.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/seafman.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/seafrost.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/tresa.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/usafish.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/viru.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
                                 </div> 
                                 <br>
                                 <div class="row">
                                     <div class="container">
-                                        <img data-original="images/FS/Clientes/clie-pt/wawa.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
-                                        <img data-original="images/FS/Clientes/clie-pt/zenu.jpg" alt="" style="width: 8%;" class="rounded lazy img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/wawa.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-pt/zenu.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
                                 </div> 
 
@@ -895,7 +915,7 @@
                     <div class="testimonial-slider">
                         <div class="testimonial-content row ">
                             <div class="author-info col-md-6 mx-auto">
-                                <img class="col-lg-12 col-12 col-md-12  mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/Testimonio.png" alt="">
+                                <img class="col-lg-12 col-12 col-md-12  mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/Testimonio.png" alt="">
 
                                 <h4 class="text-center">DELTAGEN DEL PERÚ S.A.</h4>
                             </div>
@@ -905,7 +925,7 @@
                         </div>
                         <div class="testimonial-content row">
                             <div class="author-info col-md-6">
-                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/palmyra.png" alt="">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/palmyra.png" alt="">
                                 
                                 <h4 class="text-center">PALMYRA DISTRIBUCIONES S.A.C.</h4>
                             </div>
@@ -915,7 +935,7 @@
                         </div>
                         <div class="testimonial-content row">
                             <div class="author-info col-md-6 mx-auto">
-                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/Griff.png" alt="">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/Griff.png" alt="">
                                 
                                 <h4 class="text-center">GRIFFITH FOOD S.A.S.</h4>
                             </div>
@@ -926,7 +946,7 @@
 
                          <div class="testimonial-content row">
                             <div class="author-info col-md-6 mx-auto">
-                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazy" id="TestimonioIMG" data-original="images/FS/Clientes/laCosteña.png" alt="">
+                                <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/laCosteña.png" alt="">
                                 
                                 <h4 class="text-center">CONSERVAS LA COSTEÑAS S.A.</h4>
                             </div>
@@ -938,7 +958,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
     <!-- FIN DE TESTIMONIOS DE CLIENTES -->
 
@@ -970,42 +990,42 @@
                         
                         <tbody id="EventosBody">
 
-                        <?php 
-                             $pdo=getPDO();
+                            <?php 
+                                $pdo=getPDO();
 
-                             if ($pdo) 
-                             {
-                            
-                                  $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 60;";
-                                  $stmt = $pdo->prepare($sql);
-                                  $stmt->execute(); 
-                                  
-                                  //Aquí, recorremos la consulta select. 
-
-                                  $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
-                                    foreach ($arr as $row) {
-                                        echo ' <tr>
-                        
-                                                <td><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
-                                            
-                                                <td><a href="../imagenes/'.$row["archivo_archivos"].'" target="_blank"><i style="color:#044372;" class="fa fa-plus" href="../imagenes/'.$row["archivo_archivos"].'"></i></a></td>
-                                            
-                                                <td><a href="'.$row["comentarios_text"].'" target="_blank"><i style="color:#044372;" class="fa fa-bullseye"></i></a></td>
+                                if ($pdo) 
+                                {
                                 
-                                        </tr>';
-                                      
+                                    $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 60;";
+                                    $stmt = $pdo->prepare($sql);
+                                    $stmt->execute(); 
+                                    
+                                    //Aquí, recorremos la consulta select. 
 
-                                    }
+                                    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                        foreach ($arr as $row) {
+                                            echo ' <tr>
                             
-                              } else {
-                                  echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
-                              }
-                        ?>
-                           
+                                                    <td><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
+                                                
+                                                    <td><a href="../imagenes/'.$row["archivo_archivos"].'" target="_blank"><i style="color:#044372;" class="fa fa-plus" href="../imagenes/'.$row["archivo_archivos"].'"></i></a></td>
+                                                
+                                                    <td><a href="'.$row["comentarios_text"].'" target="_blank"><i style="color:#044372;" class="fa fa-bullseye"></i></a></td>
+                                    
+                                            </tr>';
+                                        
+
+                                        }
+                                
+                                } else {
+                                    echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
+                                }
+                            ?>
+                            
                         
                             
                         </tbody>
-                      </table>
+                    </table>
                 </div>
                 
                 <div class="col-lg-1 ContactoFSclass">
@@ -1123,7 +1143,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e1.jpg" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/e1.jpg" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1140,7 +1160,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Diagnostico.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Diagnostico.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1158,7 +1178,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Documentacion.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Documentacion.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1176,7 +1196,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Auditoria.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Auditoria.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1194,7 +1214,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/aprendizaje.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/aprendizaje.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1212,7 +1232,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Suministro.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Suministro.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1230,7 +1250,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Mermas.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Mermas.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1248,7 +1268,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/e8.jpg" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/e8.jpg" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1266,7 +1286,7 @@
                             </button>
                         </div>
                         <div class="">
-                            <img src="images/FS/servicios/Defensa.png" class="img-fluid" alt="">
+                            <img data-original="images/FS/servicios/Defensa.png" class="img-fluid lazyTime" alt="">
                         </div>
                     </div>
                 </div>
@@ -1285,7 +1305,7 @@
                         </button>
                     </div>
                     <div class="">
-                        <img src="images/FS/servicios/Fraude.png" class="img-fluid" alt="">
+                        <img data-original="images/FS/servicios/Fraude.png" class="img-fluid lazyTime" alt="">
                     </div>
                 </div>
             </div>
@@ -1424,6 +1444,76 @@
             </div>
             </div>
         </div>
+
+
+        <!-- Modal Cursos -->
+        <div class="modal fade bd-example-modal-lg" id="ModalEventos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                
+                    <div class="modal-header p-3" style="background:#8BD804;">
+
+                        <h5 class="modal-title text-white">Cursos Dictados Online</h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body " style="background-color:#044372;">
+                        <table class="tablaEventos table-responsive">
+
+                            <thead>
+
+                                <th style="width: 90%;" id="thTable">Nombre del Curso</th>
+
+                                <th style="width: 15%;" id="thTable">Video</th>
+
+                            </thead>
+
+                            <tbody id="EventosBody">
+
+                                <?php 
+                                    $pdo=getPDO();
+
+                                    if ($pdo) 
+                                    {
+                                    
+                                        $sql = "SELECT * FROM videos WHERE area='AT'";
+                                        $stmt = $pdo->prepare($sql);
+                                        $stmt->execute(); 
+                                        
+                                        //Aquí, recorremos la consulta select. 
+
+                                        $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                            foreach ($arr as $row) {
+                                                echo ' <tr>
+                                
+                                                        <td><p style="color:#044372; font-weight: bold;"  class="text-center">&nbsp;'.$row["nombre_video"].'</p></td>
+                                                    
+                                                        <td class="text-center"><a href="'.$row["link"].'" target="_blank"><i style="color:#044372;" title="Mirar Video" class="fa fa-play" href="'.$row["link"].'"></i></a></td>
+                                                
+                                        
+                                                    </tr>';
+                                            
+
+                                            }
+                                    
+                                    } else {
+                                        echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
+                                    }
+                                ?>
+                                
+
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     <!-- FIN MODAL DE LOS SERVICIOS -->
 
 <!--Scroll to top-->
@@ -1449,8 +1539,18 @@
 <script src="js/script.js"></script>
 
 <script>
+    
     $(".lazy").lazyload({
             effect : "fadeIn"
+    });
+
+    // Script con Tiempo
+    var timeout = setTimeout(function() { 
+        $(".lazyTime").trigger("sporty") 
+    }, 5000);
+
+    $(".lazyTime").lazyload({
+        event : "sporty"
     });
 </script>
 </body><!-- End of .page_wrapper -->
