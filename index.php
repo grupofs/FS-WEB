@@ -341,7 +341,7 @@
                                         <div class="acc-btn">
                                             <div class="title"><i class="fa fa-caret-right" style="color: #EE8700;"></i><b> Cursos y/o Webinar's Dictados Online</b></div>
                                           
-                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalEventos">
+                                            <div class="toggle-icon" data-toggle="modal" data-target="#ModalCursos">
                                               
                                                 <span class="plus fa fa-plus"></span> <span class="minus  fa fa-minus"></span>
                                                 
@@ -971,11 +971,8 @@
         <div class="container">
             <h1 class="sec-title">Eventos</h1>
             <div class="row">
-                <div class="col-lg-1">
-                    <!-- Espaciado -->
-                </div>
 
-                <div class="col-lg-10">
+                <div class="col-lg-10 mx-auto">
                     <table class="tablaEventos table-responsive">
 
                         <thead>
@@ -992,11 +989,12 @@
 
                             <?php 
                                 $pdo=getPDO();
-
+                                
+                                $fechaActual= date("Y-m-d");
                                 if ($pdo) 
                                 {
                                 
-                                    $sql = "SELECT * FROM archivos  ORDER BY id_archivos DESC LIMIT 60;";
+                                    $sql = "SELECT * FROM archivos WHERE fecha_evento >  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 60;";
                                     $stmt = $pdo->prepare($sql);
                                     $stmt->execute(); 
                                     
@@ -1006,17 +1004,22 @@
                                         foreach ($arr as $row) {
                                             echo ' <tr>
                             
-                                                    <td><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
+                                                    <td class="pl-2"><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
                                                 
                                                     <td><a href="../imagenes/'.$row["archivo_archivos"].'" target="_blank"><i style="color:#044372;" class="fa fa-plus" href="../imagenes/'.$row["archivo_archivos"].'"></i></a></td>
                                                 
                                                     <td><a href="'.$row["comentarios_text"].'" target="_blank"><i style="color:#044372;" class="fa fa-bullseye"></i></a></td>
                                     
-                                            </tr>';
-                                        
+                                            </tr>
+                                            ';
+                                            
 
                                         }
-                                
+                                        echo' <tr>
+                                                <td colspan="3" class="text-center py-3">
+                                                    <a style="color:#EE8700; font-weight: bold;" data-toggle="modal" data-target="#ModalTodosEventos">Ver Eventos Pasados</a>
+                                                </td>
+                                            </tr>';
                                 } else {
                                     echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
                                 }
@@ -1028,9 +1031,7 @@
                     </table>
                 </div>
                 
-                <div class="col-lg-1 ContactoFSclass">
-                    <!-- Espaciado -->
-                </div>
+                
                
 
             </div>
@@ -1447,7 +1448,7 @@
 
 
         <!-- Modal Cursos -->
-        <div class="modal fade bd-example-modal-lg" id="ModalEventos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade bd-example-modal-lg" id="ModalCursos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                 
@@ -1500,6 +1501,76 @@
 
                                             }
                                     
+                                    } else {
+                                        echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
+                                    }
+                                ?>
+                                
+
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Eventos Antiguos -->
+        <div class="modal fade bd-example-modal-lg" id="ModalTodosEventos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                
+                    <div class="modal-header p-3" style="background:#8BD804;">
+
+                        <h5 class="modal-title text-white">Eventos Pasados</h5>
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body " style="background-color:#044372;">
+                        <table class="tablaEventos table-responsive">
+
+                            <thead>
+
+                            <th style="width: 90%;" id="thTable">Descripción del Evento</th>
+
+                            <th style="width: 15%;" id="thTable">Detalles</th>
+
+                            </thead>
+
+                            <tbody id="EventosBody">
+
+                                <?php 
+                                    $pdo=getPDO();
+                                    
+                                    $fechaActual= date("Y-m-d");
+                                    if ($pdo) 
+                                    {
+                                    
+                                        $sql = "SELECT * FROM archivos WHERE fecha_evento <  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 60;";
+                                        $stmt = $pdo->prepare($sql);
+                                        $stmt->execute(); 
+                                        
+                                        //Aquí, recorremos la consulta select. 
+
+                                        $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                            foreach ($arr as $row) {
+                                                echo ' <tr>
+                                
+                                                        <td class="pl-2"><p style="color:#044372; font-weight: bold;"  class="text-left">&nbsp;'.$row["nombre_archivos"].'</p> <p class="text-left font-weight-normal">&nbsp;'.$row["ver_fecha"].'</p></td>
+                                                    
+                                                        <td class="text-center "><a href="../imagenes/'.$row["archivo_archivos"].'" target="_blank"><i style="color:#044372;" class="fa fa-plus" href="../imagenes/'.$row["archivo_archivos"].'"></i></a></td>
+                                                    
+                                                       
+                                                </tr>
+                                                ';
+                                                
+
+                                            }
                                     } else {
                                         echo "<td><p style='color:#044372; font-weight: bold;'> Ups! Hubo un problema con la conexión, intente nuevamente</p></td><td></td><td></td>";
                                     }
