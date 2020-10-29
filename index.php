@@ -930,7 +930,7 @@
                                 <h4 class="text-center">GRANAROLO GROUP.</h4>
                             </div>
                             <div class="text col-md-6 EventosFSclass my-auto">
-                                "Me permito escribir estas líneas para agradecer a ustedes y a su consultor, por el gran profesionalismo, puntualidad y eficiencia con la cual gestionaron la preparación de los tramites de los productos GRANAROLO. La experiencia de colaboración con su consultor fue muy positiva y proactiva.".
+                                "Me permito escribir estas líneas para agradecer a ustedes y a su consultor, por el gran profesionalismo, puntualidad y eficiencia con la cual gestionaron la preparación de los trámites de los productos GRANAROLO. La experiencia de colaboración con su consultor fue muy positiva y proactiva.".
                             </div>
                         </div>
                         <div class="testimonial-content row">
