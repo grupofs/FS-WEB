@@ -7,17 +7,27 @@
 <html lang="es">
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="GRUPO FS Y FSC - Area de Sistemas">
+    <meta name="description" content="Somos un grupo empresarial creado en el 2003 para ofrecer inicialmente, servicios de consultoría en sistemas de gestión de calidad e inocuidadalimentaria. 
+    Con el tiempo diversificamos nuestros servicios en áreas de soporte en asuntos regulatorios, salud y seguridad ocupacional, procesamiento térmico, mermas, entre otros; 
+    manteniendo como fortaleza nuestro sistema de atención personalizado y permanente con todos nuestros clientes. ">
 
-<title>GRUPO FS </title>
+    <meta name="keywords" content="GRUPO FS, FOOD SOLUTIONS, ALIMENTOS, CONSULTORA DE ALIMENTOS ENLIMA, CONSULTORA DE ALIMENTOS EN PERU">
 
-<!-- Stylesheets -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
 
-<link rel="icon" href="images/icons/icono.png" type="image/x-icon">
+    <title>GRUPO FS </title>
+
+
+    <!-- Stylesheets -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="images/icons/icono.png" type="image/x-icon">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 
 <!-- page wrapper -->
@@ -1059,8 +1069,8 @@
     <section class="contact-section sec-pad testimonial-section-service ContactoFSclass lazy" id="ContactoFS" data-original="images/FS/grupofs-12contacto.jpg" style="background-image: url(images/fancybox/blank.gif);"  >
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-10 col-10 contact-column">
-                    <div class="contact-form-area">
+                <div class="col-lg-5 col-md-10 col-12 contact-column">
+                    <div class="contact-form-area mx-auto">
 
                         <div class="text-left col-md-8">
                             <img data-original="images/FS/Contactenos.png" class="img-fluid lazy" width="240px" height="80px">
@@ -1088,8 +1098,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-12 contact-column">
-                    <div class="google-map-area">
+                <div class="col-lg-6 col-md-12 col-12 contact-column pt-2">
+                    <div class="google-map-area col-md-12">
                         <div class="google-map" id="contact-google-map" data-map-lat="-12.112654" data-map-lng="-76.989284" data-icon-path="images/resource/map-marker.png" data-map-title="Av. El Pinar 110 - Santiago de Surco" data-map-zoom="10" data-markers="{
                                 &quot;marker-1&quot;: [-12.112654, -76.989284, &quot;<h4>Grupo FS</h4><p>Av. El Pinar 110</p>&quot;,&quot;images/resource/map-marker.png&quot;]
                             }">
@@ -1597,43 +1607,43 @@
         </div>
     <!-- FIN MODAL DE LOS SERVICIOS -->
 
-<!--Scroll to top-->
-<div class="scroll-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-angle-up"></span></div>
+    <!--Scroll to top-->
+    <div class="scroll-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-angle-up"></span></div>
 
 
 
-<!--jquery js -->
-<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/validation.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbFmCIpwcwqR3WdaZFg9YO5cArtMjjxqs"></script>
-<script src="js/isotope.js"></script>
-<script src="js/gmaps.js"></script>
-<script src="js/map-helper.js"></script>
-<script src="js/scroll.js"></script>
-<script src="js/contacto.js"></script>
-<script src="js/jquery.lazyload.js"></script>
-<!-- main-js -->
-<script src="js/script.js"></script>
+    <!--jquery js -->
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbFmCIpwcwqR3WdaZFg9YO5cArtMjjxqs"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/gmaps.js"></script>
+    <script src="js/map-helper.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <!-- main-js -->
+    <script src="js/script.js"></script>
 
-<script>
-    
-    $(".lazy").lazyload({
-            effect : "fadeIn"
-    });
+    <script>
+        
+        $(".lazy").lazyload({
+                effect : "fadeIn"
+        });
 
-    // Script con Tiempo
-    var timeout = setTimeout(function() { 
-        $(".lazyTime").trigger("sporty") 
-    }, 5000);
+        // Script con Tiempo
+        var timeout = setTimeout(function() { 
+            $(".lazyTime").trigger("sporty") 
+        }, 5000);
 
-    $(".lazyTime").lazyload({
-        event : "sporty"
-    });
-</script>
+        $(".lazyTime").lazyload({
+            event : "sporty"
+        });
+    </script>
 </body><!-- End of .page_wrapper -->
 
 </html>

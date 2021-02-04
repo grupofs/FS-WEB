@@ -13,8 +13,8 @@ if (!empty($nombre)&&!empty($email)&&!empty($mensaje)) {
 
     $data['response']="ok";
 
-    return json_encode($data);
 } else {
-    $data['response']="Error";
-    return json_encode($data);
+    $data['response']="error";
+   
 }
+ echo json_encode($data);

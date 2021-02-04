@@ -9,12 +9,23 @@ $(document).ready(function(){
             url:'bd/contacto.php',
             data:datos,
             success:function(response){
-                console.log(response);
-                $("#btnEnviar").text('Enviado!');
+                if (response == 'ok') {
+                    $("#btnEnviar").text('Enviado!');
 
-                $(".form_name").val('');
-                $(".form_email").val('');
-                $(".form_message").val('');
+                    $(".form_name").val('');
+                    $(".form_email").val('');
+                    $(".form_message").val('');
+                } else {
+                    Swal.fire(
+                        'Datos no Enviados!',
+                        'Favor de ingresar los campos requeridos',
+                        'error'
+                    );
+
+                    $("#btnEnviar").text('Enviar!');
+
+                }
+                
 
             }
         })
