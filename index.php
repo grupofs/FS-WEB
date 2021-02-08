@@ -24,10 +24,19 @@
     <!-- Stylesheets -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- whatsapp -->
+    <link rel="stylesheet" href="./css/wsp.css">
+    <link rel="stylesheet" href="./css/wsp2.css">
+
     <link rel="icon" href="images/icons/icono.png" type="image/x-icon">
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+     
 </head>
 
 <!-- page wrapper -->
@@ -1606,7 +1615,43 @@
             </div>
         </div>
     <!-- FIN MODAL DE LOS SERVICIOS -->
+     <!-- whatsapp -->
+     <div class="nav-bottom">
+          
 
+          <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top">
+                        <button type="button" class="closePopup">
+                            <span class="fa fa-close" style="color:white"></span>
+                        </button> 
+                    
+                        <p>  <img src="./images/icons/secretary.png" width="50" style="width: 50px;">  Hola, ¿en que podemos ayudarle? </p>
+                                    
+                </div>
+
+                <div class="content-whatsapp -bottom">
+                    <input class="whats-input form-control" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                    
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <!-- <i class="material-icons icon-font-color-black">send</i> -->
+                        <span class="material-icons">
+                            send
+                        </span>
+                    </button>
+
+                </div>
+          </div>
+
+          <button type="button" id="whats-openPopup" class="whatsapp-button">
+              <div class="float" >
+                  <i class="fa fa-whatsapp my-float"></i>
+              </div>
+          </button>
+
+          <div class="circle-anime"></div>
+    </div>
+
+   
     <!--Scroll to top-->
     <div class="scroll-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-angle-up"></span></div>
 
@@ -1628,6 +1673,9 @@
     <script src="js/jquery.lazyload.js"></script>
     <!-- main-js -->
     <script src="js/script.js"></script>
+ <!-- WHATSAPP -->
+ <script src="./js/whatsapp.js"></script>
+  
 
     <script>
         

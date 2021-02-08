@@ -365,7 +365,7 @@ figure{
   line-height: 45px;
   position: fixed;
   bottom: 50px;
-  right: 50px;
+  left: 50px;
   font-size: 16px;
   border-radius: 50%;
   z-index: 99;
@@ -374,10 +374,7 @@ figure{
   text-align: center;
   cursor: pointer;
   background: #8BD804;
-  transition: all 500ms ease;
-  -webkit-animation: pulse 1s infinite;
-  -o-animation: pulse 1s infinite;
-  animation: pulse 1s infinite;
+ 
 }
 .scroll-top:hover{
   background: #044372;
