@@ -942,6 +942,26 @@
                                "Muy bueno en todo momento se sintió el apoyo de ellos respecto  a  los  problemas  que  se  tenían  en  la  planta, rapidez  al  momento  de  contestar  las  interrogantes  que  teníamos y que no estaban contempladas en la asesoría.<br>Buena  coordinación,  cumpliendo  los  objetivos  que  nos  trazábamos y siempre en coordinación si se presentaba algún inconveniente de última hora".
                             </div>
                         </div>
+                        <div class="testimonial-content row ">
+                            <div class="author-info col-md-6 mx-auto">
+                                <img class="col-lg-12 col-12 col-md-12  mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/NATURALE.png" alt="">
+
+                                <h4 class="text-center">PROCESADORA CATALINA S.A. - NATURALE</h4>
+                            </div>
+                            <div class="text col-md-6 EventosFSclass my-auto">
+                               "Para agradecerles por el acompañamiento hasta el logro de este objetivo, por sus sugerencias y orientaciones valiosas  que hicieron posible contar con la Certificación.".
+                            </div>
+                        </div>
+                        <div class="testimonial-content row ">
+                            <div class="author-info col-md-6 mx-auto">
+                                <img class="col-lg-12 col-12 col-md-12  mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/PALMAS.png" alt="">
+
+                                <h4 class="text-center">INDUSTRIAS DEL ESPINO S.A.</h4>
+                            </div>
+                            <div class="text col-md-6 EventosFSclass my-auto">
+                               "Estamos muy satisfechos con el servicio. Aprovecho para agradecer el excelente trabajo realizado por el consultor senior y su equipo (han demostrado mucho profesionalismo, conocimiento, enfoque al cliente y compromiso con el proyecto).".
+                            </div>
+                        </div>
                         <div class="testimonial-content row">
                             <div class="author-info col-md-6">
                                 <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/granarolo.png" alt="">
@@ -973,7 +993,7 @@
                             </div>
                         </div> 
 
-                         <div class="testimonial-content row">
+                        <div class="testimonial-content row">
                             <div class="author-info col-md-6 mx-auto">
                                 <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/laCosteña.png" alt="">
                                 

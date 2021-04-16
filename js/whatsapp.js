@@ -29,7 +29,7 @@ popupWhatsApp = () => {
 
   setTimeout(() => {
     popup.classList.toggle('is-active-whatsapp-popup');
-  }, 2000);
+  }, 3000);
 }
 
 popupWhatsApp();
