@@ -15,9 +15,22 @@
     Con el tiempo diversificamos nuestros servicios en áreas de soporte en asuntos regulatorios, salud y seguridad ocupacional, procesamiento térmico, mermas, entre otros; 
     manteniendo como fortaleza nuestro sistema de atención personalizado y permanente con todos nuestros clientes. ">
 
-    <meta name="keywords" content="GRUPO FS, FOOD SOLUTIONS, ALIMENTOS, CONSULTORA DE ALIMENTOS ENLIMA, CONSULTORA DE ALIMENTOS EN PERU">
+    <meta name="keywords" content="GRUPO FS, FOOD SOLUTIONS, ALIMENTOS, CONSULTORA DE ALIMENTOS ENLIMA, CONSULTORA DE ALIMENTOS EN PERU, Asesoria,Consultoria,registro sanitario alimentos, cosmeticos, medicamentos,
+    Registro Senasa, Registro Juguetes DIGESA, Registro DIGESA DIGEMID, Rotulado FDA , Mercosur, Brasil , Mexico , Chile, Ecuador, Bolivia, Colombia, Inocuidad alimentaria, Sistema HACCP BPM, Normas GFSI,
+    Cumplimiento regulación FDA, Estudio de mermas , Defensa alimentaria ,food defense, Fraude alimentario food fraud, Diseño de planta, Diseno de planta, Envases para alimentos, Inspecciones y auditorias, Capacitación de personal, Validación térmica, Autoridad de proceso, Estudios de Fo, Estudios en autoclaves,Sistemas asépticos, Procesamiento térmico, asesoria consultoria registro sanitario cosméticos Peru, asesoria consultoria registro sanitario alimentos Peru">
 
+    <!-- OG METADATOS -->
+    <meta property="og:title" content="GRUPO FOOD SOLUTION" />
+    <meta property="og:url" content="https://www.grupofs.com" />
+    <meta property="og:description" content="Somos un grupo empresarial creado en el 2003 para ofrecer inicialmente, servicios de consultoría en sistemas de gestión de calidad e inocuidadalimentaria. 
+    Con el tiempo diversificamos nuestros servicios en áreas de soporte en asuntos regulatorios, salud y seguridad ocupacional, procesamiento térmico, mermas, entre otros; 
+    manteniendo como fortaleza nuestro sistema de atención personalizado y permanente con todos nuestros clientes." />
 
+    <meta name="og:keywords" content="GRUPO FS, FOOD SOLUTIONS, ALIMENTOS, CONSULTORA DE ALIMENTOS ENLIMA, CONSULTORA DE ALIMENTOS EN PERU, Asesoria,Consultoria,registro sanitario alimentos, cosmeticos, medicamentos,
+    Registro Senasa, Registro Juguetes DIGESA, Registro DIGESA DIGEMID, Rotulado FDA , Mercosur, Brasil , Mexico , Chile, Ecuador, Bolivia, Colombia, Inocuidad alimentaria, Sistema HACCP BPM, Normas GFSI,
+    Cumplimiento regulación FDA, Estudio de mermas , Defensa alimentaria ,food defense, Fraude alimentario food fraud, Diseño de planta, Diseno de planta, Envases para alimentos, Inspecciones y auditorias, Capacitación de personal, Validación térmica, Autoridad de proceso, Estudios de Fo, Estudios en autoclaves,Sistemas asépticos, Procesamiento térmico, asesoria consultoria registro sanitario cosméticos Peru, asesoria consultoria registro sanitario alimentos Peru">
+
+    <!-- FIN OG METADATOS -->
     <title>GRUPO FS </title>
 
 
@@ -32,9 +45,9 @@
     <link rel="icon" href="images/icons/icono.png" type="image/x-icon">
 
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="./js/sweetalert.js"></script>
+    <link href="./css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font_awesome.min.css">
 
      
 </head>
@@ -56,7 +69,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-12 col-12 logo-column">
                         <figure class="logo-box">
-                            <a href="#"><img src="images/FS/logoFS.png" alt=""></a>
+                            <a href="#"><img src="images/FS/logoFS.png" alt="GrupoFS Logo"></a>
                         </figure>
                     </div>
                     <div class="col-lg-9 col-md-12 col-12 menu-column">
@@ -114,7 +127,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-12 col-12 logo-column">
                             <figure class="small-logo-box img-responsive">
-                                <a href="#"><img src="images/FS/logoFS.png" alt=""></a>
+                                <a href="#"><img src="images/FS/logoFS.png" alt="Logo Grupo Fs"></a>
                             </figure>
                         </div>
                         <div class="col-lg-9 col-md-12 col-12 menu-column">
@@ -175,7 +188,7 @@
         <div class="container-fluid">
             <ul class="main-slider-carousel owl-carousel owl-theme slide-nav">
                 <li class="slider-wrapper">
-                    <div class="image"><img src="images/FS/slider1.jpg" alt=""></div>
+                    <div class="image"><img src="images/FS/socio-estrategicos-fs.jpg" alt="Somos tu socio estrategicos grupo fs" ></div>
                     <div class="slider-caption">
                         <div class="container">
                         
@@ -185,7 +198,7 @@
                 </li>
 
                 <li class="slider-wrapper">
-                    <div class="image "><img src="images/FS/slider2.jpg" alt=""></div>
+                    <div class="image "><img src="images/FS/socio-estrategicos-fs-2.jpg" alt="Somos tu socio estrategicos grupo fs 2"></div>
                     <div class="slider-caption">
                         <div class="container">
                          
@@ -195,7 +208,7 @@
                 </li>
 
                 <li class="slider-wrapper">
-                    <div class="image "><img src="images/FS/slider3.png" alt=""></div>
+                    <div class="image "><img src="images/FS/socio-estrategicos-fs-3.png" alt="Somos tu socio estrategicos grupo fs 3"></div>
                     <div class="slider-caption">
                         <div class="container">
                          
