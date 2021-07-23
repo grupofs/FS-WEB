@@ -9,8 +9,9 @@ $(document).ready(function(){
             url:'bd/contacto.php',
             data:datos,
             success:function(response){
-                console.log('response', response)
-                if (response == 'ok') {
+                var res = JSON.parse(response); 
+                console.log('response', res[0].response)
+                if (res == 'ok') {
                     $("#btnEnviar").text('Enviado!');
 
                     $(".form_name").val('');

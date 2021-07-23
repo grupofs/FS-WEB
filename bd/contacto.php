@@ -7,7 +7,6 @@ $mensaje = wordwrap($_POST['form_message'],70,"\r\n");
 $contenido = "DE: ".$email."\n";
 $contenido .= "MENSAJE: ".$mensaje;
 
-echo $contenido;
 $emailContacto = 'consultasfs@grupofoodsolutions.onmicrosoft.com';
 $emailSistemas = 'sistemas@grupofoodsolutions.onmicrosoft.com';
 if (!empty($nombre)&&!empty($email)&&!empty($mensaje)) {
