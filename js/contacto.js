@@ -9,6 +9,7 @@ $(document).ready(function(){
             url:'bd/contacto.php',
             data:datos,
             success:function(response){
+                console.log('response', response)
                 if (response == 'ok') {
                     $("#btnEnviar").text('Enviado!');
 
