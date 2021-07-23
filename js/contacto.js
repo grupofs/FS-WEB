@@ -10,7 +10,7 @@ $(document).ready(function(){
             data:datos,
             success:function(response){
                 var res = JSON.parse(response); 
-                console.log('response', res[0].response)
+                console.log('response', res)
                 if (res == 'ok') {
                     $("#btnEnviar").text('Enviado!');
 
