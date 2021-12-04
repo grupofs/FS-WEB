@@ -1158,25 +1158,27 @@
     <!-- main-footer -->
     <footer class="main-footer" style="background-color:#044372 ;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p style="color:white; font-size: 14px;" ><i class="fa fa-map-marker" style="width: 20px; height: 20px;"></i> 
-                         Av. Del Pinar 110 Of. 405 Urb. Chacarilla del Estanque <br>Santiago de Surco, 15038, Lima - Perú
-                    </p>
-                </div>
-
-                <div class="col-md-4">
-                    <p style="color:white; font-size: 14px;" ><i class="fa fa-whatsapp" style="width: 20px; height: 20px;"></i> 
-                        (511) 480-0561 ext. 100
-                   </p>
-                </div>
-
-                <div class="col-md-4">
-                    <p style="color:white; font-size: 14px;" ><i class="fa fa-envelope" style="width: 20px; height: 20px;"></i> 
-                       <a href="mailto:consultas@grupofs.com" style="color:#ffffff;"> consultas@grupofs.com</a>
-                   </p>
-                </div>
+            <div class="row text-justify">
                
+               <div class="mx-auto row col-md-10">
+                    <div class="col-md-6">
+                        <h6>Oficina Perú</h6>
+                        <ul class="listDirecciones">
+                            <li class="text-white"><i class="fa fa-building"></i> Av. Del Pinar 110 Of. 405, Chacarilla del Estanque, Santiago de Surco, Lima 15038. </li>
+                            <li class="text-white"><i class="fa fa-phone"></i>  Telf: (511) 480 0561</li>
+                            <li class="text-white"><i class="fa fa-envelope"></i><a href="mailto:consultasfs@grupofs.com" id="noHover" class="text-white"> consultasfs@grupofs.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                            <h6>Oficina USA</h6>
+                            <ul class="listDirecciones">
+                                <li class="text-white"><i class="fa fa-building"></i> 11479 68 St. NW, West Palm Beach, FL 33412</li>
+                                <br>
+                                <li class="text-white"><i class="fa fa-phone"></i> Phone: 305 407 3692</li>
+                                <li class="text-white"><i class="fa fa-envelope"></i><a href="mailto:consultasfs@grupofs.com" id="noHover" class="text-white"> consultasfs@grupofs.com</a></li>
+                            </ul>
+                    </div>
+               </div>
             </div>
         </div>
     </footer>
@@ -1188,7 +1190,7 @@
         <div class="container">
             <div class="copyright">
 
-                Copyright <strong id="Año"></strong> Grupo FS | Todos los Derechos Reservados | Área de Sistemas
+                Copyright <strong id="Año"></strong> | Todos los Derechos Reservados | Grupo FS - Área de Sistemas
             </div>
         </div>
     </div>

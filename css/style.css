@@ -2631,4 +2631,11 @@ border: 0px solid #8BD804;
 
 #noHover:hover {
   background-color: transparent;
+  
+}
+
+
+.listDirecciones  li{
+  color: white;
+  
 }
