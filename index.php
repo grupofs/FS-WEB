@@ -1164,7 +1164,7 @@
                     <div class="col-md-6">
                         <h6>Oficina Perú</h6>
                         <ul class="listDirecciones">
-                            <li class="text-white"><i class="fa fa-building"></i> Av. Del Pinar 110 Of. 405, Chacarilla del Estanque, Santiago de Surco, Lima 15038. </li>
+                            <li class="text-white"><i class="fa fa-building"></i> Av. Del Pinar 110 Of. 405, Chacarilla del Estanque, <br> Santiago de Surco, Lima 15038. </li>
                             <li class="text-white"><i class="fa fa-phone"></i>  Telf: (511) 480 0561</li>
                             <li class="text-white"><i class="fa fa-envelope"></i><a href="mailto:consultasfs@grupofs.com" id="noHover" class="text-white"> consultasfs@grupofs.com</a></li>
                         </ul>
@@ -1175,7 +1175,7 @@
                                 <li class="text-white"><i class="fa fa-building"></i> 11479 68 St. NW, West Palm Beach, FL 33412</li>
                                 <br>
                                 <li class="text-white"><i class="fa fa-phone"></i> Phone: 305 407 3692</li>
-                                <li class="text-white"><i class="fa fa-envelope"></i><a href="mailto:fsglobal@grupofs.com" id="noHover" class="text-white">fsglobal@grupofs.com</a></li>
+                                <li class="text-white"><i class="fa fa-envelope"></i><a href="mailto:fsglobal@grupofs.com" id="noHover" class="text-white"> fsglobal@grupofs.com</a></li>
                             </ul>
                     </div>
                </div>
