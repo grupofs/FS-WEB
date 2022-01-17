@@ -1497,7 +1497,7 @@ border: 0px solid #8BD804;
 
 .main-footer{
   position: relative;
-  padding: 91px 0px 89px 0px;
+  padding: 61px 0px 61px 0px;
   background: #f6f6f6;
 }
 .main-footer .footer-title{
@@ -2639,3 +2639,15 @@ border: 0px solid #8BD804;
   color: white;
   
 }
+
+/* @media only screen and (min-width: 600px){
+  .testimonial-sectio{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+  }
+} */

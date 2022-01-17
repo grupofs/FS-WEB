@@ -146,16 +146,16 @@
                                             <li id="InicioFSid" class="current"><a href="#">INICIO</a></li>
                                             <li id="NosotrosFSid"class="dropdown"><a href="#NosotrosFS">NOSOTROS</a>
                                                 <ul>
-                                                    <li id="btnSomosBarra1"><a href="#details">¿Quienes Somos?</a></li>
-                                                    <li id="btnMisionBarra1"><a href="#review">Mision</a></li>
-                                                    <li id="btnVisionBarra1"><a href="#review1">Vision</a></li>
+                                                    <li id="btnSomosBarra1"><a href="#NosotrosFS">¿Quienes Somos?</a></li>
+                                                    <li id="btnMisionBarra1"><a href="#NosotrosFS">Mision</a></li>
+                                                    <li id="btnVisionBarra1"><a href="#NosotrosFS">Vision</a></li>
                                                 </ul>
                                             </li>
                                             <li id="ServiciosFSid" class="dropdown"><a href="#">SERVICIOS</a>
                                                 <ul>
                                                     <li><a href="#AreaTecnica">Área Técnica</a></li>
                                                     <li><a href="#AsuntosRegulatorios">Asuntos Regulatorios</a></li>
-                                                    <li><a href="#ProcesosTermicos">Procesos Térmicos</a></li>
+                                                    <li><a href="#PrecesoTermico">Procesos Térmicos</a></li>
                                                 </ul>
                                             </li>
                                             <li id="ClientesFSid" class="dropdown"><a href="#ClientesFS">CLIENTES</a>
@@ -233,7 +233,7 @@
                 <ul class="tab-title clearfix">
                     <li data-tab-name="details" id="btnSomos" ><i class="fa fa-building"></i> ¿Quienes Somos?</li>
                     <li data-tab-name="review" id="btnMision"><i class="fa fa-users"></i> Nuestra Misión</li>
-                    <li data-tab-name="review1" id="btnVision"><i class="fa fa-eye"></i> Nuestra Visión</li>
+                    <li data-tab-name="review1" id="btnVision" ><i class="fa fa-eye"></i> Nuestra Visión</li>
                 </ul>
             </div>
             
@@ -614,7 +614,7 @@
      </div>
     </section>
     
-    <section class="sec-pad-espacio centred" style="background-color: white;"></section>
+    <section class="sec-pad-espacio centred" style="background-color: white;" id="PrecesoTermico"></section>
 
     <section class="testimonial-section-service gallery-section sec-pad ServiciosFSclass lazy" id="ProcesosTermicos" data-original="images/FS/grupofs-8termicos.jpg" style="background-image: url(images/fancybox/blank.gif);">
         <div class="container"> 
@@ -849,19 +849,20 @@
                                             <img data-original="images/FS/Clientes/clie-ar/esteelauder.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                             <img data-original="images/FS/Clientes/clie-ar/nestle.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
-                                    </div> 
+                                </div> 
                                     <br> 
-                                    <div class="row">
-                                        <div class="container">
-                                            <img data-original="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                            <img data-original="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
-                                        </div> 
+                                <div class="row" style="padding-bottom:20%;">
+                                    <div class="container">
+                                        <img data-original="images/FS/Clientes/clie-ar/oechsle.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/pepsico.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/saga.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/supesa.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/tottus.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/transmeridian.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
+                                        <img data-original="images/FS/Clientes/clie-ar/wishtrade.jpg" alt="" style="width: 8%;" class="rounded lazyTime img-fluid">
                                     </div> 
+                                </div> 
+                                    
                                    
                     </div>
     
@@ -972,7 +973,7 @@
                                 <h4 class="text-center">INDUSTRIAS DEL ESPINO S.A.</h4>
                             </div>
                             <div class="text col-md-6 EventosFSclass my-auto">
-                               "Estamos muy satisfechos con el servicio. Aprovecho para agradecer el excelente trabajo realizado por el consultor senior y su equipo (han demostrado mucho profesionalismo, conocimiento, enfoque al cliente y compromiso con el proyecto).".
+                               "Estamos muy satisfechos con el servicio. Aprovecho para agradecer el excelente trabajo realizado por el consultor senior y su equipo. <br> (Han demostrado mucho profesionalismo, conocimiento, enfoque al cliente y compromiso con el proyecto).".
                             </div>
                         </div>
                         <div class="testimonial-content row">
@@ -1010,7 +1011,7 @@
                             <div class="author-info col-md-6 mx-auto">
                                 <img class="col-lg-12 col-12 col-md-12 mx-auto lazyTime" id="TestimonioIMG" data-original="images/FS/Clientes/laCosteña.png" alt="">
                                 
-                                <h4 class="text-center">CONSERVAS LA COSTEÑAS S.A.</h4>
+                                <h4 class="text-center">CONSERVAS LA COSTEÑA S.A.</h4>
                             </div>
                             <div class="text col-md-6 EventosFSclass my-auto">
                                 
@@ -1156,7 +1157,7 @@
     <!-- FIN DE CONTACTO -->
 
     <!-- main-footer -->
-    <footer class="main-footer" style="background-color:#044372 ;">
+    <footer class="main-footer" style="background-color:#044372;">
         <div class="container">
             <div class="row text-justify">
                
