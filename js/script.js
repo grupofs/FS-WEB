@@ -537,6 +537,36 @@
 		clickCliente();
 	});
 
-	
+	$(".show_service").click(function(){
+		$("section").hide();
+		var destino = $(this).data("destino");
+		console.log(destino);
+		$("#"+destino).show();
+		window.scrollTo(0, 0);
+	});
 
+	// $("#menu_nav li, .volver_principal").click(function(){
+	// 	$("section").show();
+	// 	$(".unique_page").hide();
+	// });
+
+	$(".volver_principal").click(function(){
+		window.location.href = "https://grupofs.com/#ServiciosFS";
+	});
+
+	$(".cambiar_idioma").click(function(){
+		//idioma_eng / idioma_esp
+		var idioma_id=this.id;
+		$.ajax({
+            type:'post',
+            url:'bd/idiomas.php',
+            data: {language: idioma_id},
+            success:function(response){
+                console.log(response);
+                window.location.reload();
+
+            }
+        })
+	});
+	
 })(window.jQuery);

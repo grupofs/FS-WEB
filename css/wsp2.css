@@ -213,3 +213,130 @@ input.whats-input[type=text]:focus {
 .icon-font-color--black {
   color: #333333;
 }
+
+.servicios_lista{max-width: 300px !important; margin-bottom: 30px}
+#servicios {
+    max-width: 1100px;
+    margin: auto;
+}
+.bg_servicios {
+    background: url(/images/FS/fondoservicios.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.servicios_detalle {
+  max-width: 380px !important;
+  margin-bottom: 30px;
+}
+.cursor_p{cursor: pointer;}
+button.close{position: absolute;
+  right: 7px;
+  z-index: 1;
+  top: 7px;
+}
+.p-tb-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.lista_p_servic{padding: 50px}
+.lista_p_servic h3{ font-weight:bold; font-size:16px; color:#2b3b80 }
+.lista_p_servic li {font-size: 15px;font-weight: 600;margin-left: 15px;}
+.lista_p_servic ul li::before{content: "\2022";color: #ff5200;font-weight:bold;display:inline-block;width:15px;margin-left:-13px;font-size:21px;}
+.tabla_serv_icons{margin:15px;vertical-align:middle; }
+.tabla_serv_icons td{vertical-align:middle !important; padding-top: 10px; padding-bottom: 10px;font-size: 15px}
+.lista_p_servic p{font-size: 15px}
+.volver_principal {
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  margin-top: 100px;
+}
+.serv_imagen{margin: 0;width: 100%; height: auto;}
+.serv_titulo{background: #2e3980;  padding:15px; vertical-align: middle}
+.serv_titulo div{text-align: center; width: 100%;min-height: 75px;font-weight: bold;color:#fff;}
+.serv_descripcion {
+  background: #ddd;
+  color: #666;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+  min-height: 159px;display: -webkit-box;
+  font-family:'Montserrat', sans-serif;
+}
+.serv_link{position: relative}
+.serv_link a {
+  background: #8BD804;
+  color: #2e3980;
+  padding: 7px 15px;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 120px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.tabla_servicio{min-height: 550px; margin-bottom:30px;}
+
+td.serv_link:before {
+  content: "";
+  width: 100%;
+  height: 0px;
+  border-left: 60px solid transparent;
+  border-top: 68px solid #dddddd;
+  position: absolute;
+  left: 0;
+}
+
+.parrafo_serv{font-weight: 600;color:#888888;top: 50%;left: 50%;transform: translate(-50%, -50%); padding: 30px;}
+.cuadros_prog > div {
+  display: table;min-height: 200px;     margin-bottom: 15px;
+}
+.cuadros_prog > div > div {
+    display: table-cell;
+    background: #8ac340;
+    color: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    font-size: 13px;
+    height: 100%;
+    vertical-align: middle;
+}
+.cuadros_prog > div > div:after {
+    /*
+    content: "\f061";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #2e377c;
+    font-size: 27px;
+    */
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 40%;
+    background: url(../images/icons/flecha_der.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.cuadros_prog > div:last-child > div:after {display: none;}
+
+.cuadrosAzul > div {
+  display: table;min-height: 200px;     margin-bottom: 15px;
+}
+.cuadrosAzul > div > div {
+  display: table-cell;
+  background: #2d3a80;
+  color: #fff;
+  padding: 15px;
+  font-size: 13px;
+  height: 100%;
+  vertical-align: middle;
+}
+.cuad7 > div{max-width: calc((100% / 7) - 8px ) !important;}
+.cuad5 > div {min-width: calc(100% / 5);}
