@@ -286,7 +286,11 @@ figure{
   margin: 0px;
 }
 
-
+h1.sec-title{
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 700;
+}
 /** button **/
 
 .theme-btn {

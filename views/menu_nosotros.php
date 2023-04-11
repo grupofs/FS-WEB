@@ -9,7 +9,7 @@
                 ?>
                 <div id="quienes_somos" class="col-lg-7 col-md-12 col-12 ">
                     <div class="content-box">
-                        <h1>About us</h1>
+                        <h1 class="sec-title">About us</h1>
                         <div id="info" class="bg-whitea text-white">
                             <br>
                             <div class="text-left" >
@@ -56,7 +56,7 @@
                 ?>
                 <div id="quienes_somos" class="col-lg-7 col-md-12 col-12 ">
                     <div class="content-box">
-                        <h1>¿Quienes Somos?</h1>
+                        <h1 class="sec-title">¿Quienes Somos?</h1>
                         <div id="info" class="bg-whitea text-white">
                             <br>
                             <div class="text-left" >

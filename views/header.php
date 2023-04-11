@@ -20,12 +20,12 @@
     <!-- FIN OG METADATOS -->
     <title>GRUPO FS - Validación térmica alimentos, estudio f0 conservas</title>
     <!-- Stylesheets -->
-    <link href="css/style.css?v=7" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
     <!-- whatsapp -->
     <link rel="stylesheet" href="./css/wsp.css">
-    <link rel="stylesheet" href="./css/wsp2.css?v=7">
+    <link rel="stylesheet" href="./css/wsp2.css">
     <link rel="icon" href="images/icons/icono.png" type="image/x-icon">
 
     <script src="./js/sweetalert.js"></script>

@@ -8,7 +8,7 @@
 
     <div class="col-lg-10 mx-auto">
 
-      <table class="tablaEventos table-responsive2">
+      <table class="tablaEventos table-responsive">
 
              <thead>
 
@@ -36,7 +36,7 @@
 
 
 
-                    $sql = "SELECT * FROM archivos WHERE fecha_evento >  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 8;";
+                    $sql = "SELECT * FROM archivos WHERE fecha_evento >  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 20;";
 
                     $stmt = $pdo->prepare($sql);
 

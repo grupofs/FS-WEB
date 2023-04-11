@@ -730,7 +730,7 @@
 
                                     
 
-                                        $sql = "SELECT * FROM archivos WHERE fecha_evento <  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 5;";
+                                        $sql = "SELECT * FROM archivos WHERE fecha_evento <  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 15;";
 
                                         $stmt = $pdo->prepare($sql);
 
