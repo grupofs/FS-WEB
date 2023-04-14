@@ -158,6 +158,7 @@
     <script src="js/map-helper.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/contacto.js"></script>
+    <script src="js/eventos.js"></script>
     <script src="js/jquery.lazyload.js"></script>
     <!-- main-js -->
     <script src="js/script.js?v=5"></script>

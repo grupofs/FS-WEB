@@ -3,11 +3,11 @@
 
 function getPDO () {
    
-    $user = "foodsp_web";
-    $pass = "63plz5pdp2";
+    $user = "root";
+    $pass = "";
 
     try {
-        $pdo = new PDO('mysql:host=localhost;dbname=foodsp_web', $user, $pass);
+        $pdo = new PDO('mysql:host=localhost;dbname=eventos_db', $user, $pass);
         $pdo->exec("SET NAMES 'utf8';");
         return $pdo;
         

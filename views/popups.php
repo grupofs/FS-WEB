@@ -730,7 +730,7 @@
 
                                     
 
-                                        $sql = "SELECT * FROM archivos WHERE fecha_evento <  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 15;";
+                                        $sql = "SELECT * FROM v_eventos WHERE fecha_evento < $fechaActual  and fecha_evento_2 < $fechaActual and fecha_evento_3 < $fechaActual and fecha_evento_4 < $fechaActual LIMIT 20;";
 
                                         $stmt = $pdo->prepare($sql);
 
@@ -742,7 +742,7 @@
 
 
 
-                                        $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                            $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                                             foreach ($arr as $row) {
 
@@ -768,6 +768,9 @@
 
 
 
+                                            }
+                                            if(count($arr)< 1){
+                                                echo "<td colspan='2' class='text-center'><p style='color:#044372; font-weight: bold;'> No hay datos para mostrar</p></td>";
                                             }
 
                                     } else {

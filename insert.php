@@ -13,7 +13,7 @@
         // username => root
         // password => empty
         // database name => staff
-        $conn = mysqli_connect("localhost", "root", "", "foodsp_web");
+        $conn = mysqli_connect("localhost", "root", "", "eventos_db");
          
         // Check connection
         if($conn === false){

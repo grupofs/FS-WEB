@@ -1,10 +1,12 @@
 <div class="container">
 
-  <br><br><br>
-
-  <h1 class="sec-title"><?php echo $text_eventos; ?></h1>
-
-  <div class="row">
+  <br>
+<div class="row">
+  <div class="mx-auto">
+    <h1 class="sec-title"><?php echo $text_eventos; ?><i class="fa fa-download col-md-2" title="Descargar eventos" style="font-size: 25px;" id="download_eventos"></i> </h1>
+    
+  </div>
+  
 
     <div class="col-lg-10 mx-auto">
 
@@ -25,27 +27,16 @@
                 <?php 
 
                 $pdo=getPDO();
-
-
-
                 $fechaActual= date("Y-m-d");
 
-                if ($pdo) 
-
-                {
+                if ($pdo){
 
 
-
-                    $sql = "SELECT * FROM archivos WHERE fecha_evento >  '".$fechaActual."'  ORDER BY id_archivos DESC LIMIT 20;";
+                    $sql = "SELECT * FROM v_eventos WHERE fecha_evento > $fechaActual or  fecha_evento_2 > $fechaActual or fecha_evento_3 > $fechaActual or fecha_evento_4 > $fechaActual";
 
                     $stmt = $pdo->prepare($sql);
 
                     $stmt->execute(); 
-
-
-
-                                        //Aquí, recorremos la consulta select. 
-
 
 
                     $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -95,12 +86,6 @@
                 }
 
                 ?>
-
-
-
-
-
-
 
                </tbody>
 
