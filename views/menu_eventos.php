@@ -12,15 +12,15 @@
 
       <table class="tablaEventos table-responsive">
 
-             <thead>
+            <thead>
 
-                  <th style="width: 90%;" id="thTable"><?php echo $text_eventos_cab1; ?></th>
+              <th style="width: 90%;" id="thTable"><?php echo $text_eventos_cab1; ?></th>
 
-                  <th style="width: 15%;" id="thTable"><?php echo $text_eventos_cab2; ?></th>
+              <th style="width: 15%;" id="thTable"><?php echo $text_eventos_cab2; ?></th>
 
-                  <th style="width: 15%;" id="thTable"><?php echo $text_eventos_cab3; ?></th>
+              <th style="width: 15%;" id="thTable"><?php echo $text_eventos_cab3; ?></th>
 
-              </thead>
+            </thead>
 
               <tbody id="EventosBody">
 
@@ -62,10 +62,7 @@
                         </tr>
 
                         ';
-
-
-
-
+                        
 
                     }
 
@@ -87,7 +84,7 @@
 
                 ?>
 
-               </tbody>
+              </tbody>
 
       </table>
 
