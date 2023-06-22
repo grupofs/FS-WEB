@@ -30,24 +30,27 @@ $styleArray = array(
     )
 );
 
+$drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
+$drawing->setName('logoFS');
+$drawing->setDescription('logoFS');
+$drawing->setPath('https://grupofs.com/images/FS/logoFS.png');
+$drawing->setWidth(50);
+$drawing->setHeight(36);
+$drawing->setCoordinates('A1');
+$drawing->setWorksheet($spreadsheet->getActiveSheet());
+
 $activeWorksheet->getCell('A3')->setValue('Descripcion');
 $activeWorksheet->getStyle('A3')->applyFromArray($styleArray);
 
 $activeWorksheet->setCellValue('B3', 'Fechas');
 $activeWorksheet->getStyle('B3')->applyFromArray($styleArray);
+$spreadsheet->getActiveSheet()->getColumnDimension('A')->setAutoSize(10);
+$spreadsheet->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
 
-$pdo=getPDO();
-$fechaActual= date("Y-m-d");
-
+$pdo=getListado();
 if($pdo){
-    $sql = "SELECT * FROM v_eventos WHERE fecha_evento > $fechaActual or  fecha_evento_2 > $fechaActual or fecha_evento_3 > $fechaActual or fecha_evento_4 > $fechaActual";
-
-    $stmt = $pdo->prepare($sql);
-
-    $stmt->execute(); 
-
-
-    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    
+    $arr = $pdo;
     $row = 4;
     foreach ($arr as $valor) {
         $activeWorksheet->setCellValue('A'.$row, $valor['nombre_archivos']);
@@ -55,13 +58,7 @@ if($pdo){
         $row++;
     }
 }
-$drawing = new \PhpOffice\PhpSpreadsheet\Worksheet\Drawing();
-$drawing->setName('logoFS');
-$drawing->setDescription('logoFS');
-$drawing->setPath('https://grupofs.com/images/FS/logoFS.png');
-$drawing->setWidth(150);
-$drawing->setCoordinates('A1','B1','C1');
-$drawing->setWorksheet($spreadsheet->getActiveSheet());
+
 
 //META TAGS
 $spreadsheet->getProperties()->setCreator("Grupo Food Solutions");

@@ -674,7 +674,7 @@
 
 
 
-                        <h5 class="modal-title text-white">Eventos Pasados</h5>
+                        <h5 class="modal-title text-white">Eventos Pasadoss</h5>
 
 
 
@@ -700,7 +700,7 @@
 
 
 
-                            <th style="width: 90%;" id="thTable">Descripción del Evento</th>
+                            <th style="width: 90%;" id="thTable">Descripción del Eventos</th>
 
 
 
@@ -718,32 +718,14 @@
 
                                 <?php 
 
-                                    $pdo=getPDO();
+                                    $pdo=getListadoPasados();
 
                                     
-
-                                    $fechaActual= date("Y-m-d");
-
                                     if ($pdo) 
-
                                     {
 
-                                    
-
-                                        $sql = "SELECT * FROM v_eventos WHERE fecha_evento < $fechaActual  and fecha_evento_2 < $fechaActual and fecha_evento_3 < $fechaActual and fecha_evento_4 < $fechaActual LIMIT 20;";
-
-                                        $stmt = $pdo->prepare($sql);
-
-                                        $stmt->execute(); 
-
-                                        
-
                                         //Aquí, recorremos la consulta select. 
-
-
-
-                                            $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+                                            $arr = $pdo;
                                             foreach ($arr as $row) {
 
                                                 echo ' <tr>

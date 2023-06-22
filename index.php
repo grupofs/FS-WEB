@@ -1,4 +1,5 @@
 <?php  include_once 'bd/conexion.php'; ?>
+<?php  include_once 'bd/obtener_evento.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es-PE">

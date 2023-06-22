@@ -26,21 +26,10 @@
 
                 <?php 
 
-                $pdo=getPDO();
-                $fechaActual= date("Y-m-d");
-
+                $pdo=getListado();
                 if ($pdo){
 
-
-                    $sql = "SELECT * FROM v_eventos WHERE fecha_evento > $fechaActual or  fecha_evento_2 > $fechaActual or fecha_evento_3 > $fechaActual or fecha_evento_4 > $fechaActual";
-
-                    $stmt = $pdo->prepare($sql);
-
-                    $stmt->execute(); 
-
-
-                    $arr = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+                    $arr = $pdo;
                     foreach ($arr as $row) {
 
                         echo ' <tr>
